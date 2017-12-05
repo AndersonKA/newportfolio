@@ -6,6 +6,42 @@ a {
   color: #000000;
 }
 
+img {
+  max-width: 150px;
+}
+
+.blank1 {
+  background: #6AB1E9;
+}
+
+.blank2 {
+  background: #1CA6D4;
+}
+
+.blank3 {
+  background: #95E5F7;
+}
+
+.blank4 {
+  background: #7AE8EB;
+}
+
+.blank5 {
+  background: #46E4CD;
+}
+
+.blank6 {
+  background: #9DDFC1;
+}
+
+.blank7 {
+  background: #388AB5;
+}
+
+.blank8 {
+  background: #38B5A7;
+}
+
 
 /*CSS for the Main Page*/
 
