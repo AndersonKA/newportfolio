@@ -10,6 +10,10 @@ img {
   max-width: 150px;
 }
 
+ul {
+  margin: 1rem;
+}
+
 .blank1 {
   background: #6AB1E9;
 }
@@ -42,11 +46,58 @@ img {
   background: #38B5A7;
 }
 
+.crop2 {
+  height: 200px;
+}
+
+/*CSS for the Nav Bar*/
+.navbar {
+  background: #6AB1E9;
+  margin: -1rem;
+  display: flex;
+}
+
+.navitem {
+  margin: 1rem;
+}
 
 /*CSS for the Main Page*/
+.mainbody {
+  margin: 2rem 1rem;
+}
 
+.mainintro {
+  border-left: 25px solid #6AB1E9;
+}
 
-/*CSS for the About Page*/
+.maintext {
+  margin: 1rem;
+}
+
+.mainbutton {
+  margin: 1rem;
+}
+
+.mainwork {
+  border-left: 25px solid #6AB1E9;
+}
+
+.mained {
+  border-left: 25px solid #1CA6D4;
+}
+
+.mainskills {
+  border-left: 25px solid #95E5F7;
+}
+
+.mainabout {
+  border-left: 25px solid #46E4CD;
+}
+
+.maincontact {
+  border-left: 25px solid #38B5A7;
+}
+
 
 
 /*CSS for the Contact Page*/
@@ -59,3 +110,6 @@ img {
 
 
 /*CSS for the Skills Page*/
+
+
+/*under 730 the About page won't respond correctly (but not all the pics are in so this might change)*/

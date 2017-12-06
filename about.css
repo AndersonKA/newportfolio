@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #000000;
+}
+
+img {
+  max-width: 150px;
+}
+
+ul {
+  margin: 1rem;
+}
+
+/*CSS for the About Page*/
+.aboutwrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: -1fr 2fr minmax(160px, 1fr);
+}
+
+/*.aboutsec {
+  border: 2px solid #000000;
+}*/
+
+.abouttext {
+  margin: 1rem;
+}
+
+.abouttest {
+  flex-direction: column;
+}
+
+.about1 {
+  grid-column: 1/3;
+  border-left: 25px solid #6AB1E9;
+}
+
+.about2 {
+  grid-column: 3/6;
+  border-left: 25px solid #1CA6D4;
+}
+
+.about3 {
+  border-left: 25px solid #95E5F7;
+}
+
+.about4 {
+  grid-column: 2/4;
+  border-left: 25px solid #7AE8EB;
+}
+
+.about5 {
+  border-left: 25px solid #46E4CD;
+}
+
+.about6 {
+  border-left: 25px solid #6AB1E9;
+}
+
+.about7 {
+  grid-column: 1/3;
+  border-left: 25px solid #38B5A7;
+}
+
+.about8 {
+  border-left: 25px solid #1CA6D4;
+}
+
+.about9 {
+  border-left: 25px solid #9DDFC1;
+}
+
+.about10 {
+  border-left: 25px solid #ABEEF3;
+}
+
+.about11 {
+  border-left: 25px solid #46E4CD;
+}
+
+.about12 {
+  border-left: 25px solid #388AB5;
+}
+
+.about13 {
+  border-left: 25px solid #7AE8EB;
+}
