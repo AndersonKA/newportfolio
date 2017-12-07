@@ -1,0 +1,107 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: #000000;
+}
+
+img {
+  max-width: 150px;
+}
+
+ul {
+  margin: 1rem;
+}
+
+/*CSS for the Nav Bar*/
+.navbar {
+  background: #03649B;
+  margin: -1rem;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.navitems {
+  margin: 1rem;
+  display: flex;
+}
+
+.navitembox {
+  margin-top: 0.5rem;
+}
+
+.navitem {
+  padding: 0 0.5rem;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+.notcurrent {
+  text-decoration: none;
+}
+
+.current {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*CSS for the Skills Page*/
+
+.skillswrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: -1fr 2fr minmax(160px, 1fr);
+  margin: 2rem 1rem;
+}
+
+.skillstext {
+  margin: 1rem;
+}
+
+.skillsname {
+  text-align: center;
+  background: blue;
+}
+
+.skills1 {
+  grid-column: 1/3;
+  border-left: 25px solid #6AB1E9;
+}
+
+.skills2 {
+  grid-column: 1/3;
+  border-left: 25px solid #46E4CD;
+}
+
+.skills4 {
+  border-left: 25px solid #95E5F7;
+}
+
+.skillspic {
+  margin: 1rem;
+}
+
+@media(max-width: 800px) {
+  .skillspic {
+    max-width: 100px;
+  }
+}
+
+@media(max-width: 500px) {
+  .skillspic {
+    max-width: 50px;
+  }
+
+  .navitembox {
+    margin-top: 0;
+  }
+}

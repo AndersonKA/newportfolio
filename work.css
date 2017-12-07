@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 a {
@@ -10,8 +10,67 @@ ul {
   margin: 1rem;
 }
 
+/*CSS for the Nav Bar*/
+.navbar {
+  background: #03649B;
+  margin: -1rem;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.navitems {
+  margin: 1rem;
+  display: flex;
+}
+
+.navitembox {
+  margin-top: 0.5rem;
+}
+
+.navitem {
+  padding: 0 0.5rem;
+}
+
+.notcurrent {
+  text-decoration: none;
+}
+
+.current {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+/*CSS for the Work Page*/
+
+.workwrapper {
+  margin: 2rem;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: -1fr 2fr minmax(160px, 1fr);
+}
+
+.worktext {
+  margin: 1rem;
+}
+
+.work1 {
+  grid-column: 1/3;
+  border-left: 25px solid #7AE8EB;
+
+}
+
 .pic {
-  box-shadow: 0.2rem 0.5rem 0.7rem 0.2rem rgba(#000, 0.4);
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .1);
   margin-bottom: 1rem;
   align-self: center;
   max-width: 100%;
@@ -107,10 +166,36 @@ ul {
 
 @media(max-width: 650px) {
   .area {
-    padding: 1rem;
+    padding: 0.25rem;
   }
 
-.grid {
-  min-width: 20rem;
+  .grid {
+    min-width: 20rem;
+  }
+
+  .workwrapper {
+    margin: 2rem 0;
+  }
+
+  .pic {
+    max-width: 100%;
+    min-width: 15rem;
+    height: auto;
+    min-height: 15rem;
+    max-height: 15rem;
+  }
+
+  .stuff {
+    min-width: 15rem;
+    min-height: 15rem;
+    max-height: 15rem;
+    max-width: 15rem;
+    font-size: 0.75rem;
+  }
 }
+
+@media(max-width: 500px) {
+  .navitembox {
+    margin-top: 0;
+  }
 }
