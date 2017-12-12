@@ -35,6 +35,7 @@ ul {
 
 .navitembox {
   margin-top: 0.5rem;
+  margin-left: 1rem;
 }
 
 .navitem {
@@ -52,6 +53,8 @@ ul {
 .current {
   font-weight: bold;
   font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid #ffffff;
 }
 
 /*CSS for the Skills Page*/
