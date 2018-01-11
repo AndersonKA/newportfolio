@@ -1,62 +1,23 @@
-body {
-  font-family: Roboto, sans-serif;
+.mainbackground {
+  background: url('./images/Background1.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
-
-a {
-  color: #000000;
-}
-
-img {
-  max-width: 150px;
-}
-
-ul {
-  margin: 1rem;
-}
-
-/*.blank1 {
-  background: #6AB1E9;
-}
-
-.blank2 {
-  background: #1CA6D4;
-}
-
-.blank3 {
-  background: #95E5F7;
-}
-
-.blank4 {
-  background: #7AE8EB;
-}
-
-.blank5 {
-  background: #46E4CD;
-}
-
-.blank6 {
-  background: #9DDFC1;
-}
-
-.blank7 {
-  background: #388AB5;
-}
-
-.blank8 {
-  background: #38B5A7;
-}*/
-
 
 /*CSS for the Nav Bar*/
 .navbar {
-  background: #03649B;
-  margin: -1rem;
+  margin: -1rem -1rem 0;
   display: flex;
   font-size: 1.1rem;
+  font-family: 'Slabo 27px', serif;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background: #86CED6;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
 }
 
 .navbar a {
-  color: #ffffff;
+  color: #000000;
 }
 
 .logo {
@@ -68,11 +29,13 @@ ul {
 .navitems {
   margin: 1rem;
   display: flex;
+  position: sticky;
 }
 
 .navitembox {
   margin-top: 0.5rem;
   margin-left: 1rem;
+  position: sticky;
 }
 
 .navitem {
@@ -87,82 +50,113 @@ ul {
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
-  border: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
 }
 
-/*CSS for the Main Page*/
+
+/*Header CSS*/
+.headerwords {
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15rem 0;
+}
+
+
+/*Main Body CSS*/
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.kaework {
+  padding: 7rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30rem;
+  text-align: center;
+}
+
 .mainbody {
   margin: 2rem 1rem;
 }
 
-.mainwrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: -1fr 2fr minmax(160px, 1fr);
-  margin: 2rem 1rem;
-}
-
-.mainintro {
-  border-left: 25px solid #6AB1E9;
-  grid-column: 1/3;
-}
-
 .maintext {
   margin: 1rem;
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.25rem;
 }
 
 .mainbutton {
-  margin: 1rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  font-family: Raleway, sans-serif;
 }
 
-.mainwork {
-  border-left: 25px solid #388AB5;
-  grid-column: 3/6;
+.button {
+  background: #388AB5;
+  color: #ffffff;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 10%;
+  border: 2px solid #388AB5;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .4);
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #388AB5;
+  border: 2px solid #388AB5;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 10%;
 }
 
 .mained {
-  border-left: 25px solid #1CA6D4;
+  padding: 4rem 0;
+  margin: 0 auto;
+  width: 30rem;
+  text-align: center;
 }
 
 .mainskills {
-  border-left: 25px solid #95E5F7;
+  padding: 4rem 0;
+  margin: 0 auto;
+  width: 30rem;
+  text-align: center;
 }
 
 .mainabout {
-  border-left: 25px solid #46E4CD;
+  padding: 7rem 0;
+  margin: 0 auto;
+  width: 30rem;
+  text-align: center;
 }
 
 .maincontact {
-  border-left: 25px solid #38B5A7;
+  padding: 4rem 0;
+  margin: 0 auto;
+  width: 30rem;
+  text-align: center;
 }
 
 
 
-@media(max-width: 1000px) {
+/*Footer CSS*/
 
-  .mainwork {
-    grid-column-start: 1;
-  }
-
-  .mained {
-    grid-column-start: 1;
-  }
-
-  .mainskills {
-    grid-column-start: 1;
-  }
-  .mainabout {
-    grid-column-start: 1;
-  }
-
-  .maincontact {
-    grid-column-start: 1;
-  }
-
+footer {
+  margin: 2.5rem -1rem 0 -1rem;
 }
 
-@media(max-width: 500px) {
-  .navitembox {
-    margin-top: 0;
-  }
+.footer {
+  font-family: Roboto, sans-serif;
+  padding: 2rem 2rem 0.5rem 2rem;
 }
+
+.footeritem a {
+  color: #000000;
+}
+
+/*#4184CE*/

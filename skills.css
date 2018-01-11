@@ -14,12 +14,26 @@ ul {
   margin: 1rem;
 }
 
+.skillsbackground {
+  background: url('./images/Background4.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
 /*CSS for the Nav Bar*/
 .navbar {
-  background: #03649B;
-  margin: -1rem;
+  margin: -1rem -1rem 0;
   display: flex;
   font-size: 1.1rem;
+  font-family: 'Slabo 27px', serif;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background: #86CED6;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
+}
+
+.navbar a {
+  color: #000000;
 }
 
 .logo {
@@ -31,19 +45,17 @@ ul {
 .navitems {
   margin: 1rem;
   display: flex;
+  position: sticky;
 }
 
 .navitembox {
   margin-top: 0.5rem;
   margin-left: 1rem;
+  position: sticky;
 }
 
 .navitem {
   padding: 0 0.5rem;
-}
-
-.navbar a {
-  color: #ffffff;
 }
 
 .notcurrent {
@@ -54,7 +66,7 @@ ul {
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
-  border: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
 }
 
 /*CSS for the Skills Page*/
@@ -91,6 +103,21 @@ ul {
 
 .skillspic {
   margin: 1rem;
+}
+
+/*Footer CSS*/
+
+footer {
+  margin: 2.5rem -1rem 0 -1rem;
+}
+
+.footer {
+  font-family: Roboto, sans-serif;
+  padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.footeritem a {
+  color: #000000;
 }
 
 @media(max-width: 800px) {
