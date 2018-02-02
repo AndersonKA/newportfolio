@@ -5,25 +5,21 @@
 
 /*CSS for the Nav Bar*/
 .navbar {
-  margin: -1rem -1rem 0;
+  margin: -1rem -1rem 2rem;
   display: flex;
   font-size: 1.1rem;
   font-family: 'Slabo 27px', serif;
   justify-content: flex-end;
   position: sticky;
   top: 0;
-  background: #86CED6;
+  /*background: #86CED6;*/
+  background: #00C6D4;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
+  z-index: 1;
 }
 
 .navbar a {
   color: #000000;
-}
-
-.logo {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
 }
 
 .navitems {
@@ -58,7 +54,9 @@
 .headerwords {
   font-family: Raleway, Helvetica, sans-serif;
   text-align: center;
-  padding: 15rem 0;
+  padding: 15rem 1rem;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 
@@ -68,22 +66,55 @@
   color: black;
 }
 
-.kaework {
-  padding: 7rem 0;
+.links {
+  color: #000000;
+}
+
+
+.container {
+margin: 2rem -1rem;
+}
+
+.cando {
+  background: #75D6DD;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
-  width: 30rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.canbe {
+  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.homebox {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3 - 1rem);
+  flex-grow: 1;
+  margin: 1rem;
+  min-width: 23rem;
+  min-height: 23rem;
+  max-height: 23rem;
+  max-width: 23rem;
+  position: relative;
   text-align: center;
 }
 
-.mainbody {
-  margin: 2rem 1rem;
-}
 
 .maintext {
   margin: 1rem;
+  padding-top: 2rem;
   font-family: 'Slabo 27px', serif;
   font-size: 1.25rem;
 }
@@ -96,50 +127,19 @@
 }
 
 .button {
-  background: #388AB5;
+  background: #2295A7;
   color: #ffffff;
   padding: 1rem;
   text-decoration: none;
-  border-radius: 10%;
-  border: 2px solid #388AB5;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .4);
+  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, .4);
 }
 
 .button:hover {
   background: #ffffff;
-  color: #388AB5;
-  border: 2px solid #388AB5;
+  color: #2295A7;
   padding: 1rem;
   text-decoration: none;
-  border-radius: 10%;
-}
-
-.mained {
-  padding: 4rem 0;
-  margin: 0 auto;
-  width: 30rem;
-  text-align: center;
-}
-
-.mainskills {
-  padding: 4rem 0;
-  margin: 0 auto;
-  width: 30rem;
-  text-align: center;
-}
-
-.mainabout {
-  padding: 7rem 0;
-  margin: 0 auto;
-  width: 30rem;
-  text-align: center;
-}
-
-.maincontact {
-  padding: 4rem 0;
-  margin: 0 auto;
-  width: 30rem;
-  text-align: center;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .4);
 }
 
 
@@ -159,4 +159,20 @@ footer {
   color: #000000;
 }
 
-/*#4184CE*/
+
+
+/*@media(max-width: 500px) {
+  .navitem {
+    margin: 0 1rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .navitem:hover {
+  }
+
+  .current {
+    border-bottom: 0;
+    font-size: 1.4rem;
+  }
+}*/

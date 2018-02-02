@@ -1,0 +1,111 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: #000000;
+}
+
+img {
+  max-width: 30rem;
+}
+
+ul {
+  margin: 1rem;
+}
+
+/*CSS for the Nav Bar*/
+.navbar {
+  margin: -1rem -1rem 2rem;
+  display: flex;
+  font-size: 1.1rem;
+  font-family: 'Slabo 27px', serif;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background: #86CED6;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.navitems {
+  margin: 1rem;
+  display: flex;
+  position: sticky;
+}
+
+.navitembox {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  position: sticky;
+}
+
+.navitem {
+  padding: 0 0.5rem;
+}
+
+.notcurrent {
+  text-decoration: none;
+}
+
+.current {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+}
+
+
+/*CSS For The Main Stuff*/
+
+.maintitle {
+  font-size: 3rem;
+  margin: 1rem -1rem;
+  padding: 1rem 5rem;
+  background: #3eb8d7;
+}
+
+.section {
+  margin: 0 -1rem;
+  padding: 7rem;
+}
+
+.earlysection {
+  background: #71DCF7;
+}
+
+.indent {
+  padding-left: 1rem;
+}
+
+.quote {
+  font-size: 3rem;
+}
+
+.usersection {
+  background: #99CBFB;
+}
+
+.iasection {
+  background: #C7DBB5;
+}
+
+.userflowpic {
+  max-height: 25rem;
+}
+
+/*#E6A46B orange background*/
+
+
+
+
+
+
+@media(max-width: 500px) {
+.section {
+  padding: 2rem;
+}
+}
