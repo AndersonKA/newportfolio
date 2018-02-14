@@ -135,12 +135,17 @@ footer {
 }
 
 .footer {
-  font-family: Roboto, sans-serif;
+  font-family: 'Slabo 27px', serif;
   padding: 2rem 2rem 0.5rem 2rem;
 }
 
 .footeritem a {
   color: #000000;
+}
+
+.fa-size {
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
 @media(max-width: 1100px) {

@@ -3,6 +3,15 @@
   background-size: cover;
 }
 
+body {
+  font-family: 'Didact Gothic', Helvetica, sans-serif;
+}
+
+img {
+  max-width: 15rem;
+  box-shadow: 3px 4px 4px 2px rgba(0, 0, 0, .2);
+}
+
 /*CSS for the Nav Bar*/
 .navbar {
   margin: -1rem -1rem 2rem;
@@ -12,7 +21,6 @@
   justify-content: flex-end;
   position: sticky;
   top: 0;
-  /*background: #86CED6;*/
   background: #00C6D4;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
   z-index: 1;
@@ -52,7 +60,6 @@
 
 /*Header CSS*/
 .headerwords {
-  font-family: Raleway, Helvetica, sans-serif;
   text-align: center;
   padding: 15rem 1rem;
   max-width: 40rem;
@@ -61,6 +68,28 @@
 
 
 /*Main Body CSS*/
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add {
+  background: #475252;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  padding: 4rem 0;
+}
+
+.addbox {
+  display: flex;
+  margin: 0 auto;
+}
+
+.additem {
+  padding: 1rem 2rem;
+}
+
 .link {
   text-decoration: none;
   color: black;
@@ -70,77 +99,63 @@
   color: #000000;
 }
 
-
 .container {
 margin: 2rem -1rem;
 }
 
-.cando {
-  background: #75D6DD;
+.canwork {
   display: flex;
   flex-wrap: wrap;
+  padding: 2rem;
+  background: #FFFFFF;
+}
+
+.canworksec {
+  padding: 2rem;
+  max-width: 70rem;
+  display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1.5rem 0;
+}
+
+.workwords {
+  padding-left: 2rem;
+}
+
+.tinypadding {
+  padding-left: 1rem;
+}
+
+.canwrite {
+  background: #75D6DD;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem;
+  max-width: 50rem;
+}
+
+.spacing {
+  margin: 5rem 0;
+}
+
+.cando {
+  padding: 1rem 6rem;
 }
 
 .canbe {
-  background: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
+  background: #90E3D0;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 4rem;
+  max-width: 30rem;
 }
 
-.homebox {
-  display: flex;
-  flex-direction: column;
-  flex-basis: calc(100% / 3 - 1rem);
-  flex-grow: 1;
-  margin: 1rem;
-  min-width: 23rem;
-  min-height: 23rem;
-  max-height: 23rem;
-  max-width: 23rem;
-  position: relative;
-  text-align: center;
+.cancontact {
+  padding: 1rem 6rem;
 }
 
-
-.maintext {
-  margin: 1rem;
-  padding-top: 2rem;
-  font-family: 'Slabo 27px', serif;
-  font-size: 1.25rem;
-}
-
-.mainbutton {
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  font-family: Raleway, sans-serif;
-}
-
-.button {
-  background: #2295A7;
-  color: #ffffff;
-  padding: 1rem;
-  text-decoration: none;
-  box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, .4);
-}
-
-.button:hover {
-  background: #ffffff;
-  color: #2295A7;
-  padding: 1rem;
-  text-decoration: none;
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .4);
-}
 
 
 
@@ -151,7 +166,7 @@ footer {
 }
 
 .footer {
-  font-family: Roboto, sans-serif;
+  font-family: 'Slabo 27px', serif;
   padding: 2rem 2rem 0.5rem 2rem;
 }
 
@@ -159,20 +174,24 @@ footer {
   color: #000000;
 }
 
+.fa-size {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
 
 
-/*@media(max-width: 500px) {
-  .navitem {
-    margin: 0 1rem;
-    padding-top: 2rem;
-    font-size: 1.3rem;
+@media(max-width: 800px) {
+  .canworksec {
+    display: inline;
   }
 
-  .navitem:hover {
+  .workwords {
+    padding-left: 0;
+    max-width: 20rem;
+    text-align: center;
   }
 
-  .current {
-    border-bottom: 0;
-    font-size: 1.4rem;
+  .fa-size {
+    font-size: 1rem;
   }
-}*/
+}

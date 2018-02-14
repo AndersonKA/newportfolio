@@ -14,9 +14,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.contactwrapper {
-  flex: 1 0 auto;
-}
+
 
 .contactbackground {
   background: url('./images/Background9.png') no-repeat center bottom fixed;
@@ -68,12 +66,12 @@ body {
 }
 
 /*CSS for the Contact Page*/
-
 .contactwrapper {
   margin: 2rem;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: -1fr 2fr minmax(160px, 1fr);
+  flex: 1 0 auto;
 }
 
 .contacttext {
@@ -116,8 +114,17 @@ footer {
 }
 
 .footer {
-  font-family: Roboto, sans-serif;
+  font-family: 'Slabo 27px', serif;
   padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.footeritem a {
+  color: #000000;
+}
+
+.fa-size {
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
 

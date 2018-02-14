@@ -7,55 +7,33 @@ a {
 }
 
 img {
-  max-width: 30rem;
+  max-width: 25rem;
 }
 
 ul {
   margin: 1rem;
 }
 
-/*CSS for the Nav Bar*/
-.navbar {
-  margin: -1rem -1rem 2rem;
-  display: flex;
-  font-size: 1.1rem;
-  font-family: 'Slabo 27px', serif;
-  justify-content: flex-end;
-  position: sticky;
-  top: 0;
-  background: #86CED6;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
+/*CSS for the Header*/
+header {
+  position: relative;
+  margin: -1rem;
+  height: 400px;
+  background: #3eb8d7;
+  /*background-image: linear-gradient(#3eb8d7, #b37845);*/
 }
 
-.navbar a {
-  color: #000000;
+header h1 {
+  text-align: center;
 }
 
-.navitems {
-  margin: 1rem;
-  display: flex;
-  position: sticky;
-}
 
-.navitembox {
-  margin-top: 0.5rem;
-  margin-left: 1rem;
-  position: sticky;
-}
-
-.navitem {
-  padding: 0 0.5rem;
-}
-
-.notcurrent {
-  text-decoration: none;
-}
-
-.current {
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-bottom: 1px solid #000000;
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
 }
 
 
@@ -64,13 +42,17 @@ ul {
 .maintitle {
   font-size: 3rem;
   margin: 1rem -1rem;
-  padding: 1rem 5rem;
-  background: #3eb8d7;
+  padding: 6rem 5rem 4rem;
 }
 
 .section {
   margin: 0 -1rem;
   padding: 7rem;
+}
+
+.text {
+  max-width: 55rem;
+  margin: 0 auto;
 }
 
 .earlysection {
@@ -97,9 +79,19 @@ ul {
   max-height: 25rem;
 }
 
+.sketchsection {
+  background: #E6A46B;
+}
+
 /*#E6A46B orange background*/
 
+.wireframes {
+  height: 25rem;
+}
 
+.usabilitysection {
+  background: #71DCF7;
+}
 
 
 
