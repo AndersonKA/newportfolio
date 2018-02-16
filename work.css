@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Raleway, Helvetica, sans-serif;
 }
 
 a {
@@ -173,6 +173,26 @@ ul {
   background: #A1E3E8;
 }
 
+/*Footer CSS*/
+
+footer {
+  margin: 2.5rem -1rem 0 -1rem;
+}
+
+.footer {
+  font-family: 'Slabo 27px', serif;
+  padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.footeritem a {
+  color: #000000;
+}
+
+.fa-size {
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
 @media(max-width: 650px) {
   .area {
     padding: 0.25rem;
@@ -203,25 +223,7 @@ ul {
   }
 }
 
-/*Footer CSS*/
 
-footer {
-  margin: 2.5rem -1rem 0 -1rem;
-}
-
-.footer {
-  font-family: 'Slabo 27px', serif;
-  padding: 2rem 2rem 0.5rem 2rem;
-}
-
-.footeritem a {
-  color: #000000;
-}
-
-.fa-size {
-  font-size: 2rem;
-  padding: 0.5rem;
-}
 
 @media(max-width: 500px) {
   .navitembox {

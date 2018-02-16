@@ -51,13 +51,13 @@ svg {
 }
 
 .text {
-  max-width: 55rem;
+  max-width: 52rem;
   margin: 0 auto;
 }
 
-.earlysection {
+/*.earlysection {
   background: #71DCF7;
-}
+}*/
 
 .indent {
   padding-left: 1rem;
@@ -67,31 +67,34 @@ svg {
   font-size: 3rem;
 }
 
-.usersection {
+/*.usersection {
   background: #99CBFB;
 }
 
 .iasection {
   background: #C7DBB5;
-}
+}*/
 
 .userflowpic {
   max-height: 25rem;
 }
 
-.sketchsection {
+/*.sketchsection {
   background: #E6A46B;
-}
+}*/
 
-/*#E6A46B orange background*/
 
 .wireframes {
   height: 25rem;
 }
 
-.usabilitysection {
+/*.accesssection {
   background: #71DCF7;
 }
+
+.stylesection {
+  background: #99CBFB;
+}*/
 
 
 
