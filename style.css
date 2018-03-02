@@ -14,7 +14,7 @@ body {
 
 img {
   max-width: 15rem;
-  box-shadow: 3px 4px 4px 2px rgba(0, 0, 0, .2);
+  box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, .2);
 }
 
 h1 {
@@ -28,8 +28,8 @@ h1 {
   margin: -1rem -1rem 2rem;
   display: flex;
   font-size: 1.1rem;
-  font-family: 'Slabo 27px', serif;
-  justify-content: flex-end;
+  /*font-family: 'Slabo 27px', serif;*/
+  justify-content: space-between;
   position: sticky;
   top: 0;
   background: #00C6D4;
@@ -43,18 +43,21 @@ h1 {
 
 .navitems {
   margin: 1rem;
-  /*display: flex;
-  position: sticky;*/
 }
 
 .navitembox {
   margin-top: 0.5rem;
   margin-left: 1rem;
-  /*position: sticky;*/
 }
 
 .navitem {
   padding: 0 0.5rem;
+}
+
+.navleft {
+  margin: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .notcurrent {
@@ -85,7 +88,7 @@ h1 {
 }
 
 .add {
-  background: #B1E7E8;
+  background: #87D7E3;
   display: flex;
   flex-wrap: wrap;
   padding: 4rem 0;
@@ -107,6 +110,11 @@ h1 {
 
 .links {
   color: #000000;
+}
+
+.white {
+  background: #ffffff;
+  margin: -1rem;
 }
 
 .container {
@@ -152,6 +160,7 @@ margin: 2rem -1rem;
 
 .cando {
   padding: 1rem 6rem;
+    background: #FFFFFF;
 }
 
 .canbe {
@@ -164,6 +173,11 @@ margin: 2rem -1rem;
 
 .cancontact {
   padding: 1rem 6rem;
+  background: #FFFFFF;
+}
+
+.typeform-widget {
+  display: none;
 }
 
 
@@ -185,7 +199,7 @@ footer {
 }
 
 .fa-size {
-  font-size: 1rem;
+  /*font-size: 1rem;*/
   padding: 0.25rem;
 }
 
@@ -203,5 +217,9 @@ footer {
 
   .fa-size {
     font-size: 1rem;
+  }
+
+  .headerwords {
+    margin: 4rem 1rem;
   }
 }

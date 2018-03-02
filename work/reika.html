@@ -14,8 +14,8 @@
 
       <header>
         <h1 class="maintitle">Reika: A Travel Organization App</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon fill="white" points="0,100 100,0 100,100"/>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon fill="white" points="0,100 100,0 100,100"/> -->
         </svg>
       </header>
 
@@ -23,13 +23,16 @@
         <div class="section introsection">
           <div class="text">
           <h2>Overview: What is this?</h2>
+          <p>Reika is an app for organizing trip information. Trip planning can get overwhelming because there's
+            so much to keep track of. In some cases you might book your flight and hotel on the same site, but when
+            you add in restaurant reservations and activities you end up with lots of different emails and confirmations.
+            Reika is a way to store all your trip information in one place so you can enjoy your vacation without hunting
+            around for that piece of paper with your hotel's address on it when you're trying to fill out a customs form.</p>
           <p>This is my capstone project for the <a href="https://www.springboard.com/workshops/ux-design" target="_blank">
             Springboard UX bootcamp</a>. It isn't going to be a real app (unless you want to make it into one!).</p>
-          <p>I like to travel, but planning for a trip can get overwhelming because there's so much stuff to keep track of.
-            I'm on a quest to design an app that makes it easier to stay organized when you're planning a trip.</p>
-
-          <p>It's still in progress, so if you're here to see screenshots of the final product then they don't exist yet
-            (sorry!). Check back in a few weeks to see more.</p>
+          <p>You can also view the
+            <a href="https://drive.google.com/file/d/1ULCMvDcoSzfDHYt6Y6MfKaoEBnfQqovu/view?usp=sharing"
+            target="_blank">PDF version of this write-up</a> on Google Drive</p>
             </div>
         </div>
 
@@ -38,7 +41,7 @@
           <h2>Early Research and Findings: Do other people have issues with trip planning?</h2>
           <h3>Does anyone else have this problem?</h3>
           <p>I started this process knowing that I’d like a better way to keep track of all of my trip information. I
-            want an app that lets me do trip planning from the vague “Top 10 Things To Do In ______” Pinterest
+            wanted (and still want!) an app that lets me do trip planning from the vague “Top 10 Things To Do In ______” Pinterest
             posts all the way to the specifics of actually being on the trip. My early research focused on whether this
             is something other people also want.</p>
           <h3>Survey</h3>
@@ -48,17 +51,17 @@
             target="_blank">view the questions I asked on this Google doc</a> or <a href="https://kaeanderson.typeform.com/to/R8hi5y"
             target="_blank">see the survey on Typeform</a>.</p>
 
-          <p>My only criteria for survey participants was that they've planned a trip before, so I didn't focus much on
-            demographics. I asked how old they were (to give context to the answers), and how often they went
-            on trips. The rest of the questions asked about habits and processes for organizing trip information.</p>
-          <p>Here are the main things I learned:</p>
+          <p>Lots of people plan trips, so I didn't focus much on demographics. I asked how old they were and how often
+            they went on trips to give context to the answers. The rest of the questions asked about habits and processes
+            for organizing trip information.</p>
+          <p>I had 30 people respond, and here are the main things I learned:</p>
           <p>
             <ol>
-              <li>A lot of things about the trip planning process are less than ideal, so there are a lot of opportunities
+              <li>A lot of things about the trip planning process are less than ideal, which also means there are a lot of opportunities
                 to make improvements. One of my survey questions asked about general trip planning challenges and the responses
-                ranged from long immigration lines to the reliability of reviews.</li>
+                ranged from long immigration lines to the reliability of reviews online.</li>
               <li>Most respondents do at least some trip planning in advance (“some” in the survey meant having their
-                transportation, lodging, and several things to do planned in advance).</li>
+                transportation, lodging, and several things to do planned before they go).</li>
               <li>Information overload is an issue, both in the context of figuring out where to look for the best
                 flights/hotels and also in keeping track of the information once they’ve booked their trip.</li>
               <li>Respondents find it challenging to plan if they’re traveling with groups (this wasn’t something I had
@@ -66,22 +69,24 @@
             </ol>
           </p>
           <p>
+            <div class="center">
             <img src="../images/Typeform1.png" alt="screenshot of survey results that shows most people do some planning for their trips">
             <img src="../images/Typeform2.png" alt="screenshot of survey results that shows people use multiple methods to keep track of trip information">
+            </div>
           </p>
 
           <h3>Interviews</h3>
           <p>After doing the survey I wanted to ask some follow up questions to get more specific info, so I did interviews
-            with five people who had filled out the survey. </p>
+            with five of the people who had filled out the survey. </p>
           <p>I asked open-ended questions about trip planning, and also talked about how they deal with group travel,
             since I didn't ask any questions about that in the survey. </p>
 
           <h3>Direction After Early Research</h3>
-          <p>The answer to my original question “Does anyone else have this problem?” is yes, so I know that’s a place
-            to start, but I learned that most people don’t want to keep track of everything from the beginning of
-            trip planning. Most people said they only want the information they’ll actually need on the trip.</p>
-            <br><br>
-          <p>Responses to an open-ended question in the survey about trip planning challenges included things like:
+          <p>The answer to my original question “Does anyone else want a place to organize all their travel information?” is "kind of".
+            People want ways to organize the information they actually want on the trip, but hardly anyone was interested
+            in keeping track of every single thing from the beginning of trip planning, which (admittedly!) makes sense.</p>
+            <br>
+          <p>Responses to my open-ended question in the survey about trip planning challenges included things like:
             <div class="indent"><span class="quote">“</span>everything is booked separately, so it can be hard to have
               a single snapshot of your whole itinerary unless you make something yourself - Survey Respondent #2 </div>
               <br>
@@ -91,12 +96,12 @@
               if its a trip with multiple people and we booked separate flights. Sometimes we have taken turns booking
               accommodation so the confirmations are with different people - Survey Respondent #13</div>
           </p>
-          <br><br>
-          <p>My original hypothesis was to have this app be sort of a Google Drive type place for saving your own trip
-            information, but after talking with potential users it sounds like having a social aspect could be helpful. </p>
+          <br>
+          <p>My original hypothesis was to have this app be a Google Drive type place for saving your own trip
+            information, but after talking with people it sounds like having a social aspect could be helpful. </p>
           <p>If people can connect their plans to their friend’s plans it would make it easier to plan a group trip and
             keep track of everyone’s information. </p>
-            <br><br>
+            <br>
           <p>In the interviews I asked how people currently keep track of group trips and it sounds like Google Docs is
             the most common place:</p>
             <div class="indent"><span class="quote">“</span>Most recently for a trip with my two best friends, we split
@@ -108,17 +113,18 @@
               contributed information and things they wanted to do and see. Usually, when we are in the country we have
               a group chat happening on messenger. We all send links to restaurants and sights/activities (from google
               maps) and everyone decides together which ones look best. - Interviewee #4</div>
+              <br>
           <p>Another thing I asked people about in the interviews was whether they brought a laptop on trips and whether
             they got some kind of data plan for international travel. I wanted to see if this was something people would
              want as a website (because all of them said they do at least of their trip planning on a laptop or desktop).
              The general consensus was that they sometimes bring a laptop depending on the length of the trip and where
              they're going/staying. Four out of five said they've had a data plan on international trips in the past,
-             but that they don't always get one due to the extra cost.</p>
+             but three of them said that they don't always get one if they don't think it would be worth the extra cost.</p>
             <p>All five of the interview participants said they bring their phone on trips, so it makes the most sense
               to have this be an app that can store information without them needing to be online to use it.</p>
             <br><br>
-            <p><h3>TL;DR - I had 29 people complete a survey and I did 5 interviews to get more information. The maim
-              thing I learned is that people are overwhelmed with the amount of things there are to keep track of when
+            <p><h3>TL;DR (Too Long; Didn't Read)- I had 30 people complete a survey and I did 5 interviews to get more information.
+              I learned is that people are overwhelmed with the amount of things there are to do, research, and keep track of when
               they're planning a trip. For this project I’m focusing on creating an app to organize trip documentation and
               information, and share it easily with the people you're traveling with.</h3></p>
 
@@ -132,9 +138,7 @@
           <h2>Competitive Analysis: What’s everybody else doing?</h2>
             <p>I did a competitive analysis of three sites using some of the heuristics in
               <a href="https://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design" target="_blank">
-                Nielsen’s 10 Usability Heuristics</a>.</p>
-
-                <p>I did a competitive analysis of three sites so I could get an idea of what other companies are doing.</p>
+                Nielsen’s 10 Usability Heuristics</a> so I could get an idea of what other companies are doing.</p>
 
                 <p>Sites I reviewed:</p>
                 <ol>
@@ -145,10 +149,11 @@
                 <li><a href="http://get.google.com/trips/" target="_blank">Google Trips</a> (because Google knows how to
                   make things easy to use)</li>
                 </ol>
-
+                <div class="center">
                 <img src="../images/trellosmall.png" alt="screenshot of Trello's site">
                 <img src="../images/lpsmall.png" alt="screenshot of Lonely Planet's site">
                 <img src="../images/googlesmall.png" alt="screenshot of Google Trips' site">
+                </div>
 
 
                 <p>Findings:</p>
@@ -161,7 +166,7 @@
                   the information is hidden, so you either need to click on a picture or a dot-menu to find it. They have
                   different areas for specific categories within a trip.</p>
                 <br><br>
-                <h3>TL;DR - I reviewed three sites that are related to my project’s mission to see how they handled heuristics.</h3>
+                <h3>TL;DR - I reviewed three sites that are related to this app’s mission to see how they handled heuristics.</h3>
                 </div>
 
         </div><!-- end of compsection -->
@@ -187,17 +192,20 @@
           <p>I made two personas: Tim, a young extravert who likes to travel with friends, and Mary, an organized
             professional in her 40s who splits her vacations between solo trips and trips with her boyfriend.</p>
             <br>
-            <img src="../images/Marypersona.png" alt="screenshot of a persona for Mary">
-            <img src="../images/Timpersona.png" alt="screenshot of a persona for Tim">
+            <div class="center">
+            <a href="../images/Marypersona.png" target="_blank"><img src="../images/Marypersona.png" alt="screenshot of a persona for Mary"></a>
+            <a href="../images/Timpersona.png" target="_blank"><img src="../images/Timpersona.png" alt="screenshot of a persona for Tim"></a>
+            </div>
             <br><br>
           <h3>Empathy Maps</h3>
           <p>The empathy maps show what each person would be thinking, saying, feeling, and doing while they're trip
             planning. These are useful to have because the personas focus more on demographic info and what type of
             person each of them are, and the empathy maps actually get into their mindset and process. </p>
             <br>
+            <div class="center">
             <img src="../images/Maryempathy.png" alt="screenshot of an empathy map for Mary">
             <img src="../images/Timempathy.png" alt="screenshot of an empathy map for Tim">
-
+            </div>
           <br><br><br><br>
           <h3>TL;DR - I have two personas that I’ll be using to guide the design process.</h3>
 
@@ -211,20 +219,29 @@
                to figure out how they’d use it. </p>
             <p>I went through the process of figuring out what the Minimum Viable Product (MVP)/Earliest Testable Product
               (ETP) and wrote users stories based on that. The MVP/ETP for this is a simple place for users to store trip
-              information. I also added user stories for the user to connect with other people’s accounts. In a real
+              information. I also added user stories for connection with other people. In a real
               world situation that might be a second round/stretch goal addition. </p>
             <h3>First Round</h3>
             <p>My first user stories were in the typical “As a user I want to ________ so I can _______”.</p>
+
+            <img src="../images/userstories1.png" alt="screenshot of the original user stories">
+            <br>
+
             <p><a href="https://drive.google.com/file/d/1VZ3NQhaP12pA_-5q83f6kxWVvkEb7nPq/view?usp=sharing" target="_blank">
+
               See the PDF version of those user stories</a> (opens in a new tab)</p>
 
             <h3>Second Round</h3>
-            <p>After I’d finished them I read a <a href="https://www.uxpin.com/studio/blog/write-smarter-user-stories-product-design-development/"
-              target="_blank">Joe Natoli article on UXPin</a> about shifting user stories to include more information
+            <p>After I’d finished them I read an <a href="https://www.uxpin.com/studio/blog/write-smarter-user-stories-product-design-development/"
+              target="_blank">article by Joe Natoli on UXPin</a> about shifting user stories to include more information
               that adds intent behind what they want to do. It’s useful because it shows what success means in the context.</p>
             <p>I decided to rewrite my user stories in this type of format to add some reasoning behind why a user would
               make the decision to use this product. I used my personas and walked through how they would use the app. </p>
+              <img src="../images/userstories2.png" alt="screenshot of the updated user stories">
+              <br>
             <p><a href="https://drive.google.com/file/d/1WWPoGf9AoV1KsVabSmDUy0ie1lPrRwIl/view?usp=sharing" target="_blank">
+
+
               See the PDF version of the updated user stories here</a> (opens in a new tab) </p>
             <br>
             <h3>TL;DR - I made two types of user stories.</h3>
@@ -239,7 +256,9 @@
             <a href="https://www.optimalworkshop.com/optimalsort" target="_blank">Optimal Workshop's Optimal Sort</a>.</p>
           <p>I asked participants to sort 21 cards into groups that they named themselves. I had 10 people complete the
             card sort.</p>
+            <div class="center">
           <p><img src="../images/Cardsortscreenshot.png" alt="screenshot showing the text from the 21 cards in the card sort"></p>
+          </div>
           <p>The responses to this were really interesting. People could create their own groups for the cards, so that
             gave them freedom to sort the cards however it made sense to them.</p>
           <p>
@@ -263,7 +282,9 @@
               and determined that it would simplify the app to have it set up as Trip > Thing > Action. Since simplifying
               the trip planning process is a main goal of this app then structuring it in the simplest way makes the most
               sense.</p>
-            <p><img src="../images/InfoArchpicsmall.png" alt="screenshot showing handsketched information architecture"></p>
+              <div class="center">
+            <p><a href="../images/InfoArchpicsmall.png" target="_blank"><img src="../images/InfoArchpicsmall.png" alt="screenshot showing handsketched information architecture"></a></p>
+            </div>
           <br><br>
           <h3>TL;DR - I ran a card sort to find out how people expect this app to be organized and created the site
             architecture using that information and additional feedback.</h3>
@@ -276,10 +297,12 @@
           <p>After the card sort and IA were done I wanted to do user flows so I could get a feel for how people would
             do things within the app. I went through a few flows and used my personas as examples of people who needed
             to do specific things.</p>
+            <div class="center">
             <img src="../images/UserFlows-AddingANewTrip.png" class="userflowpic" alt="screenshot of a user flow showing how a user would add a new trip">
             <img src="../images/UserFlows-AddingTransportation.png" class="userflowpic" alt="screenshot of a user flow showing how a user would add a transportation item to a trip">
             <img src="../images/UserFlows-RemovingAnActivity.png" class="userflowpic" alt="screenshot of a user flow showing how a user would remove an activity from a trip">
             <img src="../images/UserFlows-AddingAConnection.png" class="userflowpic" alt="screenshot of a user flow showing how a user would add a new connection">
+            </div>
         <br><br>
         <p>This process made me focus on what a person would actually be doing. This was the point where I could start
           to see things coming together. It also made it so I could get specific feedback on how things were going to work.</p>
@@ -288,7 +311,7 @@
           the goal is to simplify travel organization it's good to keep it streamlined.</p>
 
           <br><br>
-          <h3>TL;DR - I made user flows for things a user would want to do in this app.</h3>
+          <h3>TL;DR - I made user flows for how a user would do things in this app.</h3>
           </div>
         </div> <!-- end of flowsection -->
 
@@ -298,24 +321,31 @@
               <h3>First Sketches</h3>
               <p>I based the design on the information architecture and user flows. I made a few different versions of some
               screens so I could get feedback on them. </p>
+              <div class="center">
               <img src="../images/Sketch1.png" alt="screenshot showing sketches of the log in and sign up pages">
               <img src="../images/Sketch4.png" alt="screenshot showing sketches of different versions of how to add information to a trip">
+              </div>
               <h3>Early Wireframes</h3>
               <p>I used <a href="http://balsamiq.com" target="_blank">Balsamiq</a> to make early wireframes. These were
                 really fun to make because it started to feel real. It also helped to get a better idea of how it would
                 feel to be a user of the app.</p>
+                <div class="center">
                 <img src="../images/r1entry.png" alt="screenshot of early wireframes" class="wireframes">
                 <img src="../images/r1trips.png" alt="screenshot of early wireframes" class="wireframes">
                 <img src="../images/r1trip.png" alt="screenshot of early wireframes" class="wireframes">
                 <img src="../images/r1connections.png" alt="screenshot of early wireframes" class="wireframes">
+                </div>
+                <br>
               <h3>Updated Wireframes</h3>
               <p>I asked mentors, classmates, and survey participants for feedback on the first round of wireframes. I
                 got lots of helpful information, ranging from quick fixes (I didn't have a "forgot password" link on my
                 log in page) to super useful (I had overcomplicated the Connect With Friends process and I got great
                 ideas that helped me simplify it). I also added Connect to the nav items at the bottom.</p>
+                <div class="center">
                 <img src="../images/r2login.png" alt="screenshot of second round wireframes" class="wireframes">
                 <img src="../images/r2trip.png" alt="screenshot of second round wireframes" class="wireframes">
                 <img src="../images/r2connect.png" alt="screenshot of second round wireframes" class="wireframes">
+                </div>
                 <br><br>
                 <h3>TL;DR - I did some early sketches and then two rounds of wireframes based on feedback.</h3>
           </div>
@@ -327,15 +357,17 @@
           <p>Once I had created screens I could link them together to simulate the process a user would take as they
             plan a trip. I used <a href="http://invisionapp.com" target="_blank">InVision</a> to add "hotspots" to the
             screens in places where a user would want to click. </p>
-          <p>I thought I had made enough screens in my second wireframe process, but I left out some that I thought were
+          <p>I thought I had made enough screens in my second wireframe process, even though I left out some that I thought were
             really similar to others (example: I had a View Activities page, so I didn't make a View Lodging page). But
             when I started linking screens in InVision I realized how important it was to really get a good idea of the
             flow, so I went back into Balsamiq and created the additional screens. This made the app feel so much more
             interactive because it was like I was actually using it.</p>
           <p><a href="https://invis.io/pwfqdb145fy" target="_blank">You can click through it yourself on InVision's site</a></p>
+          <div class="center">
           <img src="../images/protoact.png" alt="screenshot of hotspots markings on a wireframe" class="wireframes">
           <img src="../images/prototrips.png" alt="screenshot of hotspots markings on a wireframe" class="wireframes">
           <img src="../images/protonote.png" alt="screenshot of hotspots markings on a wireframe" class="wireframes">
+          </div>
           <br><br><br>
           <h3>TL;DR - I used InVision to make a clickable prototype.</h3>
           </div>
@@ -377,7 +409,7 @@
               through a few tasks to see if they could manage them even with a basic wireframe, and they could!</p>
             <p>I did get lots of really useful feedback, like that I needed a screen/modal for what happens after people
               add a new connection ("Does the screen just refresh or can you see their profile?"), and one person noticed
-              that I didn't have a log out link anywhere, which is definitely something an app should have.</p>
+              that I didn't have a log out link anywhere, which is definitely something an app should have!</p>
             <p>I also learned a lot about how I need to make things in Balsamiq that will help me when
               I'm doing future projects. There isn't a way to upload your project from Balsamiq to InVision, so I ended
               up taking screenshots of each page in Balsamiq and uploading them into InVision. Since it was my first try
@@ -385,8 +417,10 @@
               (with the Home, Connect, and Profile options) didn't show up until they scrolled down. This wasn't what they
               expected to see, and it isn't how I intend on having it look in the end, so now I'll know how to avoid having
               that happen in the future.</p>
+              <div class="center">
               <img src="../images/usability1.png" alt="screenshot showing the entry screen wireframe on a cell phone" class="wireframes">
               <img src="../images/usability2.png" alt="screenshot showing a wireframe of a trip page on a cell phone" class="wireframes">
+              </div>
               <br><br><br>
               <h3>TL;DR - I tested my prototype with people to see if it was actually usable.</h3>
           </div>
@@ -405,15 +439,32 @@
               that made it easy to choose colors.</p>
             <p>Since those are colors people already associate with traveling the color scheme of this app will fit in
               with their ideas of what travel "looks like".</p>
+              <div class="center">
               <img src="../images/ssvacationsmall.png" alt="screenshot showing a Google image search for vacation pictures">
               <img src="../images/sstravelsmall.png" alt="screenshot showing a Google image search for travel pictures">
+            </div>
               <br><br>
-              <p>I also knew I wanted a color scheme that would meet the WCAG AAA guidelines, so I used WebAIM.org's color
-                contrast checker to determine what would work.</p>
+              <p>One of the popular themes in app design is having colorful backgrounds with white text on them. I
+                wanted to go that route as well, but when I checked the colors for accessibility I realized a lot of those color
+                combinations don't pass. The background colors have to be really dark to be accessibly legible. </p>
+                <br>
+                <div class="center">
+                <a href="https://dribbble.com/shots/2425954-Weather-App" target="_blank" ><img src="../images/ccweather.png" class="screenshotsmall" alt="screenshot showing a weather app design"></a>
+                <a href="https://dribbble.com/shots/2995418-Air-Conditioner-Controller-Mobile-App" target="_blank"><img src="../images/cccold.jpg" class="screenshotsmall" alt="screenshot showing a thermostat app design"></a>
+                <br><br>
+                <img src="../images/ccorange.png" class="screenshot" alt="screenshot showing a color contrast check on an orange color">
+                <img src="../images/ccblue.png" class="screenshot" alt="screenshot showing a color contrast check on a lightblue color">
+                </div>
+                <br><br>
+                <p>Since lots of types of people plan trips it was important to focus on what improves the process for people,
+                so I used WebAIM.org's color contrast checker to determine what would work.</p>
+                <br>
+                <div class="center">
                 <img src="../images/colorlb.png" alt="screenshot showing a color contrast check on a lightblue color">
                 <img src="../images/coloro.png" alt="screenshot showing a color contrast check on an orange color">
                 <img src="../images/colordb.png" alt="screenshot showing a color contrast check on a darkblue color">
                 <img src="../images/colorg.png" alt="screenshot showing a color contrast check on a green color">
+                </div>
               <br><br>
             <h3>Typefaces</h3>
             <p>Since this app is supposed to streamline the trip planning process and keep people organized it seemed
@@ -421,25 +472,88 @@
               feel relaxed and not clinical or stuffy, so the typeface for the headlines is Moon, which is rounded and
               feels more casual.</p>
             <h3>Logo</h3>
-            <p>I chose the name Reika for the app (it means "wander" or "roam" in Icelandic). I'm not a graphic designer,
+            <p>The name of this app is Reika (it means "wander" or "roam" in Icelandic). I'm not a graphic designer,
               so I decided to find a typeface that would add visual interest rather than attempting to make something
               that represented the name.</p>
+              <div class="center">
             <img src="../images/styleguide.png" alt="the style guide for this app">
+            </div>
             <br><br><br>
-            <h3>TL;DR - I chose colors based on a Google search and typefaces that are clean and legible.</h3>
+            <h3>TL;DR - I chose colors based on what colors people associate with travel (that also meet the WCAG AAA
+              guidelines) and chose typefaces that are clean and legible.</h3>
           </div>
         </div> <!-- end of stylesection -->
 
         <div class="section designsection">
           <div class="text">
             <h2>Design: How should all of this be put together?</h2>
-            <p>I'm working on the final designs now, so check back in a week or so to see the finished product!</p>
+            <p>I had all the research done and the style guide finished, but I still had to do some work on figuring out
+              how to best serve users with the visual design. I used Sketch to make these updated wireframes. </p>
+            <p>It was important for me to keep in mind that this app is meant to streamline and simplify the process of
+              organizing information. That meant white space was important and nothing should feel cluttered. If the
+              design is messy it won't instill trust in a user that it can help keep things in order.</p>
+            <p>I also made the decision to make a "light" mode (for when you're out in the sunshine) and a "dark" mode
+              (for when you have to wake up at 3 AM to catch a flight).</p>
+            <p>Based on the feedback I got during the prototyping phase I also changed a few other things. I changed the Home
+              label on the nav bar to "Trips" because it wasn't super clear what "home" meant. And I switched the way the items are
+              being displayed on the View pages (like the View Trips page), so now they're in a calendar form, because this
+              seemed to be easier for people to skim.</p>
+            <div class="center">
+              <p>
+              <a href="../images/finalbig.png" target="_blank"><img src="../images/finalbig.png" class="biggerwidth" alt="screenshot showing screens of the final project"></a>
+              </p>
+              <img src="../images/finallogin.png" alt="screenshot showing the login page">
+              <img src="../images/finalactivities.png" alt="screenshot showing the activities page">
+              <img src="../images/finallighttrip.png" alt="screenshot showing the light version of the trip page">
+              <img src="../images/finaldarktrip.png" alt="screenshot showing the dark version of the trip page">
+
+            </div>
+            <h5>The entry screen background picture is by <a href="https://unsplash.com/photos/wRXq_08QcjI" target="_blank">Elise Iovenko</a></h5>
+            <br><br><br>
+            <h3>TL;DR - I made these updated wireframes in Sketch based on user feedback from prototyping. I made a
+              light and dark version of the app because traveling means you end up in different situations, and now the
+              app can adjust!</h3>
           </div>
         </div><!-- end of designsection -->
 
-        <br><br>
+        <div class="section learnsection">
+          <div class="text">
+          <h2>Reflecting Back: What did I learn?</h2>
+          <p>SO MUCH.</p>
+          <p>This was my first largescale UX research project, and I learned a lot!</p>
+          <p>Here are three main takewaays that I'll be able to use in my UX career.</p>
+          <ol>
+            <li>Keep things simple - After I started getting survey results back I knew there were lots of things people
+              wanted to change about travel planning, and I started thinking about making a big app that tried to fix a
+              lot of those issues. But the best apps do one thing well, so I narrowed my focus to creating a way to store
+              trip information more effectively that a Google doc, and it made the process much less difficult than it
+              would have been. And now that the MVP is done I could always add more things on to it if I found things
+              people really wanted that fit into the scope.</li>
+            <li>Little things matter - People get frustrated with products for what seem like minor reasons. But if
+              they're repeatedly annoyed by something, and they're not required to use that product, then it's easy for
+              them to stop using it and go in search of something better. Doing a lot of testing and getting user feedback is the
+              best way to make sure people want to use a product. </li>
+            <li>I am not my user - I'd definitely heard this before I started working on Reika, but it's so important to
+              remember! Since I'm the only person working on this app I got used to my ideas about what it should do and
+              how it should work. Getting feedback from survey participants, testers, other students, and my mentor was so valuable.</li>
+          </ol>
+          <p>And two other things I learned:</p>
+          <ol>
+            <li>User experience is a great fit for me! I love that UX lets me use my curiosity and creativity for good. After
+              graduating from a dev bootcamp last year I wasn't sure development was the career for me, and I was right
+              - UX is! </li>
+            <li>There's an app called <a href="https://www.tripit.com/" target="_blank">TripIt</a> that I can use for
+              travel organization in real life!</li>
+          </ol>
+          </div>
+        </div>
 
-        <p><a href="http://kaecreates.surge.sh/work">< Back to Kae's site</a></p>
+        <div class="section text">
+          <h3>Thanks so much for checking Reika out! From here you can <a href="http://kaeanderson.com">go back to my site</a>
+            to see more or <a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" target="_top" class="links">
+              send me an email</a>!</h3>
+        </div>
+        <br><br>
 
 
 

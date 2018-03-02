@@ -20,8 +20,8 @@ ul {
   margin: -1rem -1rem 2rem;
   display: flex;
   font-size: 1.1rem;
-  font-family: 'Slabo 27px', serif;
-  justify-content: flex-end;
+  /*font-family: 'Slabo 27px', serif;*/
+  justify-content: space-between;
   position: sticky;
   top: 0;
   background: #00C6D4;
@@ -35,18 +35,21 @@ ul {
 
 .navitems {
   margin: 1rem;
-  display: flex;
-  position: sticky;
 }
 
 .navitembox {
   margin-top: 0.5rem;
   margin-left: 1rem;
-  position: sticky;
 }
 
 .navitem {
   padding: 0 0.5rem;
+}
+
+.navleft {
+  margin: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .notcurrent {
@@ -63,9 +66,19 @@ ul {
 
 
 /*CSS for the Work Page*/
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.white {
+  background: #ffffff;
+  margin: -1rem -1rem 0 -1rem;
+}
+
 
 .workwrapper {
-  margin: 2rem;
+  padding: 2rem;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: -1fr 2fr minmax(160px, 1fr);
@@ -189,7 +202,7 @@ footer {
 }
 
 .fa-size {
-  font-size: 1rem;
+  /*font-size: 1rem;*/
   padding: 0.25rem;
 }
 
@@ -204,6 +217,7 @@ footer {
 
   .workwrapper {
     margin: 2rem 0;
+    padding: 1rem;
   }
 
   .pic {
@@ -221,6 +235,10 @@ footer {
     max-width: 15rem;
     font-size: 0.75rem;
   }
+}
+
+.typeform-widget {
+  display: none;
 }
 
 
