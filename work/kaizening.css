@@ -1,5 +1,6 @@
 body {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
 }
 
 a {
@@ -14,10 +15,32 @@ ul {
   margin: 1rem;
 }
 
+/*CSS for the Header*/
+header {
+  position: relative;
+  margin: -2rem;
+  height: 15rem;
+  background: #CB9E6B;
+}
+
+header h1 {
+  text-align: center;
+  padding: 5rem;
+}
+
 .section {
-  max-width: 60rem;
+  margin: 0 -1rem;
+  padding: 6rem;
+}
+
+.text {
+  max-width: 52rem;
   margin: 0 auto;
-  padding: 5rem 0;
+}
+
+.photos {
+  /*margin: 0 auto;*/
+  text-align: center;
 }
 
 .smallpic {

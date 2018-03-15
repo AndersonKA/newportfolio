@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 1.2rem;
   line-height: 175%;
 }
@@ -8,14 +8,14 @@ a {
   color: #000000;
 }
 
-img {
+/*img {
   max-width: 30rem;
-}
+}*/
 
 /*CSS for the Header*/
 header {
   margin: -2rem;
-  background: #1D2326;
+  background: #D30800;
   color: #ffffff;
 }
 
@@ -37,14 +37,10 @@ header h1 {
 }
 
 .photos {
-  /*margin: 0 auto;*/
+  margin: 0 auto;
   text-align: center;
 }
 
-.bigimage {
-  max-width: 65rem;
-}
-
-.indent {
-  padding-left: 2.5rem;
+.shorter {
+  max-height: 40rem;
 }

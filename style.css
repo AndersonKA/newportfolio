@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 img {
@@ -75,9 +75,14 @@ h1 {
 /*Header CSS*/
 .headerwords {
   text-align: center;
-  padding: 15rem 1rem;
+  padding: 10rem 1rem;
   max-width: 40rem;
   margin: 0 auto;
+}
+
+.bigger {
+  font-size: 3rem;
+  font-family: 'Varela Round', Montserrat, sans-serif;
 }
 
 
@@ -91,7 +96,7 @@ h1 {
   background: #87D7E3;
   display: flex;
   flex-wrap: wrap;
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .addbox {
@@ -179,6 +184,7 @@ margin: 2rem -1rem;
 .typeform-widget {
   display: none;
 }
+
 
 
 

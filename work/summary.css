@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+
+.section {
+  margin: 0 -1rem;
+  padding: 2rem;
+}
+
+.text {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+
+.photos {
+  /*margin: 0 auto;*/
+  text-align: center;
+}
+
+.links {
+  color: #000000;
+}
+
+.smallpic {
+  max-width: 30rem;
+}

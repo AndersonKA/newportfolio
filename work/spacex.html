@@ -15,21 +15,231 @@
 
         <header>
           <h1 class="maintitle">SpaceX Flight Booking Site Concept</h1>
-          </svg>
         </header>
 
 
         <div class="section introsection">
           <div class="text">
+            <h2>Overview</h2>
             <p>In September of 2017 Elon Musk announced that SpaceX has plans for commercial flights using the
               <a href="https://en.wikipedia.org/wiki/BFR_(rocket)" target="_blank">BFR</a> on Earth (you can
               <a href="https://youtu.be/zqE-ultsWt0" target="_blank">watch their teaser video here</a>) that will be able
-              to make long distance flights much faster than they are now. When that happens they'll need a way for people
-              to book flights, so this is a concept for their flight booking site.</p>
+              to make long distance flights much faster than they are now - a flight from LA to NYC will only take 25 minutes!
+              When this happens they'll need a way for people to book flights, so this is a concept for their flight booking site.</p>
+            <p>It's currently still in progress, so if you're just here to see screenshots of the finished product then
+              they don't exist yet, sorry! Check back in a week or two for more.</p>
             <p>I'm not an employee of SpaceX (but I'd like to be!), so all references to SpaceX and the BFR are their
               property. Please don't sue me!</p>
           </div>
         </div>
+
+        <div class="section surveysection">
+          <div class="text">
+            <h2>Survey</h2>
+            <p>I did a survey on Typeform to learn about how people book flights online and what their challenges are.
+              This project is to make an in-house flight booking site, so I asked about how people searched for flights
+              and what they like and dislike about the sites they use.</p>
+            <p>People enjoy the flexibility and ease of booking flights online, but they also have some issues with the
+              way sites present flights and flight information.</p>
+              <ul>
+                <li>"Not always easy to specify departure times as well as dates" - Survey Respondent #4</li>
+                <li>"I don't think that there's a way around this, but having to list airport by code can be annoying.
+                  Airlines and third-party sites are great about identifying these for you though. It's not always super
+                  easy to search multiple outbound airports." - Survey Respondent #6</li>
+                <li>"A lot of the sites make you go back in inconvenient ways when you want to make a change to a booking
+                  request. I like seeing the full estimated price of a flight before I commit." - Survey Respondent #8</li>
+              </ul>
+              <p>These are important things to think about. Providing clarity about what's included and making it easy
+                to specify preferences, add filters, and make updates could be the difference between a person leaving
+                the site or booking a flight.</p>
+          </div>
+        </div>
+
+        <div class="section compsection">
+          <div class="text">
+            <h2>Competitive Analysis</h2>
+            <p>There are a lot of places for people to book flights online, so I looked at some common sites with different
+              specialties to learn about how they've presented their screens. These sites have likely done a lot of
+              research on what works and what doesn't, even though they might have done their reviews with a marketing
+              focus and not as much of a UX focus. A good site balances both the user's needs and the company's needs,
+              so knowing what works for other companies is important for this project.</p>
+          </div>
+
+          <div class="text">
+            I did in-depth reviews of three sites:
+          </div>
+          <br>
+          <div class="text">
+              <h3><a href="http://www.virginatlantic.com" target="_blank">Virgin Airlines</a></h3>
+          </div>
+              <div class="photos">
+                <a href="../images/spaceVirgin.png" target="_blank"><img src="../images/spaceVirgin.png" alt="screenshot of Virgin Atlantic's home page"></a>
+                <a href="../images/spaceVirginresults.png" target="_blank"><img src="../images/spaceVirginresults.png" alt="screenshot of Virgin Atlantic's results page"></a>
+              </div>
+              <div class="text">
+                <h4>Home Page</h4>
+                <p>Virgin is a high class airline with a good reputation. Their site is clean with a lot of white space
+                  around the text. Currently they're promoting return trips from New York, so they're using an image of
+                  NYC with a prominate CTA to intice people to learn more.</p>
+                <p>Their search field appears below that, and shows up above the fold even on my Macbook Air, which
+                  means they expect most visitors are coming to their site to book flights. </p>
+                <h4>Calendar Page</h4>
+                <p>They don't include dates on their search form because the next step in the process is a calendar page
+                  that has users click their dates to highlight them. It would be interesting to see if they've done
+                  A/B testing to check whether users prefer this format or if they'd rather have it be part of the original
+                  search. They're splitting the search process into two pages, which might keep people from getting
+                  overwhelmed, but it also adds an opportunity for things to go wrong, especially if a user is on an
+                  unreliable internet connection.</p>
+                <h4>Results Page</h4>
+                <p>Their purchase page shows the flight options for each day as well as the prices for the levels of
+                  service. There doesn't seem to be a way to only show the flight options for one service type (all the
+                  Premium Economy flight options, for example), but it's interesting that they have the option to watch
+                  a video showing the amenities of each type of service. They also hide most of their filter options,
+                  which means the screen is uncluttered and focuses on the flights until a user specifically asks for
+                  more filters.</p>
+                  </div>
+            </div> <!-- end of compsection-->
+
+
+
+
+            <div class="text">
+              <h3><a href="http://southwest.com" target="_blank">Southwest Airlines</a></h3>
+            </div>
+            <div class="photos">
+              <a href="../images/spaceSW.png" target="_blank"><img src="../images/spaceSW.png" alt="screenshot of Southwest Airlines' home page"></a>
+              <a href="../images/spaceSWresults.png" target="_blank"><img src="../images/spaceSWresults.png" alt="screenshot of Southwest Airlines' results page"></a>
+            </div>
+            <div class="text">
+                <h4>Home Page</h4>
+                <p>Southwest is a lower cost airline with a fun personality. Their site has a gradient background that
+                  starts out as dark (I'm curious what the decision making process was for this), and then uses the brand
+                  colors (blue, red, and yellow) underneath.</p>
+                <p>They have a brightly colored CTA for spring break trips, and the flight search is under that. Unlike
+                  Virgin they have all the search fields (locations, dates, and the number of travelers) in one place,
+                  so when a user clicks the Search button it takes them directly to the page that shows the available flights.</p>
+                <h4>Results</h4>
+                <p>The results page has a lot of white space, so there's a lot of information but it doesn't seem overwhelming.
+                One thing that Southwest does differently than other sites is that they show the flights in time order
+                (the results start with the earliest flight of the day), rather than in a recommended order or by price.</p>
+              </div>
+
+
+              <div class="text">
+              <h3><a href="http://momondo.com" target="_blank">Momondo</a></h3>
+            </div>
+            <div class="photos">
+              <a href="../images/spaceMomondo.png" target="_blank"><img src="../images/spaceMomondo.png" alt="screenshot of Momondo's home page"></a>
+              <a href="../images/spaceMomondoresults.png" target="_blank"><img src="../images/spaceMomondoresults.png" alt="screenshot of Momondo's results page"></a>
+            </div>
+            <div class="text">
+                <h4>Home Page</h4>
+                 <p>Momondo is a site that helps people find the cheapest possible flights for their trip. They search
+                   other flight booking sites and put them all in one place. Their site has a dark theme, and the focus
+                   is on the flight search. Since they link to lots of sites they don't focus on specific promotions.
+                   Above the fold they also have pictures of people traveling.</p>
+                <h4>Results Page</h4>
+                  <p>The results page still has a dark background, but it looks very colorful. It has a lot going on,
+                    and most of the filters are shown without someone clicking on them. They also have a sort of bar
+                    graph/calendar above the results that shows the lowest price on each date. Since Momondo is focused
+                    on cheap flights this makes sense, but on other sites having a separate page for a calendar view can
+                    also work.</p>
+                <h4>Purchasing</h4>
+                  <p>Momondo doesn't sell their own tickets, so they send users to the site(s) of the airline(s) that
+                    are selling the flights.</p>
+            </div>
+        </div> <!--end of compsection-->
+
+        <div class="section personasection">
+          <div class="text">
+            <h2>Personas</h2>
+              <p>Lots of types of people book flights online. Since SpaceX will be offering really fast flights, the
+               target audiences for the site will be slightly different than other airlines. I have two personas - Casey
+               travels for business and wants to spend less time flying, and Jamie travels less frequently but loves new and
+               exciting things.</p>
+              <p>I've done a lot of reading about how to effectively make personas, and chose to go for a different approach
+                on these. I'm focused on what their actual "jobs to be done" are, and not on demographic information. (I
+                used Marcel van Remmerden's
+                <a href="https://blog.usejournal.com/my-google-design-exercise-pet-adoption-8d91db732f11#43d2" target="_blank">
+                  Google design exercise</a> as a reference for this type of persona.)</p>
+              <h4>Casey</h4>
+              <p>"I travel internationally on business a lot and spend tons of time on planes. Being able to get across
+                the world in under an hour will make a huge difference in my life. It means I'll get to spend more time at home
+                with my family and in the office with my team instead of in the air. And being able to sleep in real beds
+                (at home or on the road) instead of trying to get comfortable on a plane will me be more alert at meetings
+                and in presentations. Quicker travel means a better life."</p>
+              <h4>Jamie</h4>
+              <p>"I like to go on one big international trip a year, and the travel to and from there is always such a
+                hassle. When I'm booking the trip I spend a bunch of time trying to find the perfect combination of short
+                travel times and low prices. If I can get to my destination in half an hour then I can spend less time
+                planning ahead of time, and I'll have more time to enjoy myself because I'll get to where I'm going faster.
+                I also spent my whole childhood wanting to be an astronaut, so flying with SpaceX is super exciting because
+                it feels like we live in the future!"</p>
+          </div>
+        </div> <!--end of personasection-->
+
+        <div class="section storiessection">
+          <div class="text">
+            <h2>User Stories</h2>
+            <p>After making the personas for the types of people who would use this site I wanted to know how they would
+              use it. Casey and Jamie have different reasons for wanting to fly with SpaceX, so they have separate user
+              stories to cover their needs. </p>
+          </div>
+          <div class="photos">
+            <a href="../images/spacestories.png" target="_blank"><img src="../images/spacestories.png" alt="screenshot of user stories"></a>
+            <h6>You can click on the picture to see a bigger image, or
+            <a href="https://drive.google.com/file/d/1RNE96aCRbKpvt0XHsVaAqu9jE1CT6Rmy/view?usp=sharing" target="_blank">
+              view it in PDF form here</a>.
+            </h6>
+          </div>
+
+        </div> <!--end of storiessection-->
+
+        <div class="section iasection">
+          <div class="text">
+            <h2>Information Architecture</h2>
+            <p>Most flight booking sites have similar structures. SpaceX is a future-focused company, but it's
+              important to have consistency in the purchase process. Users who are excited about short-duration flights
+              will still be skeptical if they don't feel the site is trustworthy. I created a simple IA for the site that
+               focuses on the pages, and I'll add more to it as I start to design.</p>
+          </div>
+          <div class="photos">
+          <img src="../images/spaceia.png" class="bigimage" alt="the information architecture for this site">
+          </div>
+        </div> <!--end of iasection-->
+
+        <div class="section papersection">
+          <div class="text">
+            <h2>Paper Prototypes</h2>
+            <p>Having lots of other sites for flight booking helped me make a high level overview of what a
+              page of this site should look like. I also used the feedback I got from people who took the survey.</p>
+            <p>Several people told me they find it difficult to get information about what's included in the price before
+              they purchase. I'm trying out adding a flight info page that explains what they're paying for.</p>
+            <p class="indent">"When comparing airlines it can be difficult to know where luggage is included or not" - Survey Respondent #7</p>
+            <p class="indent">"Sometimes baggage rules can be difficult to identify" - Survey Respondent #9</p>
+            <p>And I'm trying out a Southwest Airlines style layout for the results page because it does a good job of
+              laying out all the information so it's easy to compare. Several people said that was one of their favorite
+              things about booking flights online.</p>
+
+            <p class="indent">"compare the price, the available time and flight duration effectively" - Survey Respondent #5</p>
+            <p class="indent">"I like being able to compare prices between flight options." - Survey Respondent #8</p>
+            <p class="indent">"Easily able to compare prices" - Survey Respondent #9</p>
+
+          </div>
+          <div class="photos">
+            <img src="../images/spacepapersearch.jpg" alt="a paper prototype for the home/search page">
+            <img src="../images/spacepaperresults.jpg" alt="a paper prototype for the home/search page">
+            <img src="../images/spacepaperflight.jpg" alt="a paper prototype for the home/search page">
+          </div>
+        </div> <!--end of papersection-->
+
+
+        <div class="section text">
+          <h3>That's all so far! From here you can <a href="http://kaeanderson.com">go back to my site</a>
+            to see more or <a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" target="_top" class="links">
+              send me an email</a> to say hello!</h3>
+        </div>
+        <br><br>
 
       </div> <!--end of container-->
     </div> <!--end of main-->
