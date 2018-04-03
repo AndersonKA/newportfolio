@@ -1,15 +1,9 @@
-@font-face {
-  font-family: "Wreath";
-  src: url("./images/wreath.otf");
-}
-
-.mainbackground {
-  background: url('./images/Background1.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
-
 body {
   font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+a {
+  color: #000000;
 }
 
 img {
@@ -17,10 +11,13 @@ img {
   box-shadow: 2px 3px 3px 2px rgba(0, 0, 0, .2);
 }
 
-h1 {
-  font-family: 'Wreath', sans-serif;
-  /*Copyright (c) 2016 by Jeremy Dooley*/
-  font-size: 3rem;
+h2 {
+  text-align: center;
+}
+
+.mainbackground {
+  background: url('./images/Background1.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 /*CSS for the Nav Bar*/
@@ -71,124 +68,33 @@ h1 {
   border-bottom: 1px solid #000000;
 }
 
-
-/*Header CSS*/
-.headerwords {
-  text-align: center;
-  padding: 10rem 1rem;
-  max-width: 40rem;
-  margin: 0 auto;
-}
-
-.bigger {
-  font-size: 3rem;
-  font-family: 'Varela Round', Montserrat, sans-serif;
-}
-
-
-/*Main Body CSS*/
-.center {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.add {
-  background: #87D7E3;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 3rem 0;
-}
-
-.addbox {
-  display: flex;
-  margin: 0 auto;
-}
-
-.additem {
-  padding: 1rem 2rem;
-}
-
-.link {
+.link{
   text-decoration: none;
-  color: black;
 }
 
-.links {
-  color: #000000;
-}
 
-.white {
-  background: #ffffff;
-  margin: -1rem;
+/*Main Section CSS*/
+header{
+  padding: 2rem;
 }
 
 .container {
-margin: 2rem -1rem;
-}
-
-.canwork {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem;
-  background: #FFFFFF;
-}
-
-.canworksec {
-  padding: 2rem;
-  max-width: 70rem;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.workwords {
-  padding-left: 2rem;
-}
-
-.tinypadding {
-  padding-left: 1rem;
-}
-
-.canwrite {
-  background: #75D6DD;
-  margin: 0 auto;
-  text-align: center;
-  padding: 4rem;
-  max-width: 50rem;
-}
-
-.spacing {
-  margin: 5rem 0;
-}
-
-.cando {
-  padding: 1rem 6rem;
-    background: #FFFFFF;
-}
-
-.canbe {
-  background: #90E3D0;
-  margin: 0 auto;
-  text-align: center;
-  padding: 4rem;
-  max-width: 30rem;
-}
-
-.cancontact {
-  padding: 1rem 6rem;
-  background: #FFFFFF;
+  background: #ffffff;
+  margin: -1rem;
 }
 
 .typeform-widget {
   display: none;
 }
 
+.section {
+  max-width: 60rem;
+  margin: 0 auto;
+}
 
 .worksection {
   display: flex;
-  padding: 4rem;
+  padding: 2rem 4rem;
   max-width: 70rem;
   display: flex;
   margin: 0 auto;
@@ -201,6 +107,21 @@ margin: 2rem -1rem;
   max-width: 38rem;
 }
 
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.whyux {
+  margin: 0 auto;
+  background: #75D6DD;
+  padding: 3rem;
+  text-align: center;
+  max-width: 44rem;
+}
+
+
+
 
 
 
@@ -211,7 +132,6 @@ footer {
 }
 
 .footer {
-  font-family: 'Slabo 27px', serif;
   padding: 2rem 2rem 0.5rem 2rem;
 }
 
@@ -254,5 +174,4 @@ footer {
     padding-left: 0;
     max-width: 20rem;
   }
-
 }
