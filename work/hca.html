@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>| Accessibility At HCA Healthcare |</title>
+    <link rel="stylesheet" href="hca.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px|Raleway|Montserrat|Varela+Round" rel="stylesheet">
+      <link rel="icon" type="image/png" href="https://i.imgur.com/EK1wzf4.jpg">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </head>
+  <body>
+
+
+    <nav class="navbar" role="navigation">
+      <div class="navleft navitem">
+        <a href="../index.html" class="link">Kae Anderson</a>
+      </div>
+      <div class="navitems">
+        <div class="navitembox">
+          <div class="navright">
+          <a href="../index.html" class="navitem notcurrent">Home</a>
+          <a href="../work.html" class="navitem notcurrent">Work</a>
+          <a href="../about.html" class="navitem notcurrent">About</a>
+          <a href="../contact.html" class="navitem notcurrent">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main"  role="main">
+      <div class="container">
+
+        <header>
+          <h1 class="maintitle">Making HCA Healthcare's Sites More Accessible</h1>
+        </header>
+
+        <div class="section">
+          <h2>Overview</h2>
+          <div class="text">
+            <p>I'm currently working at HCA Healthcare (an owner of hundreds of hospital facilities and
+              specialty sites) on a contract project to make their websites more accessible. I'm part of a team
+            in the Web Shared Services department. My job is to perform audits and updat the issues we find so the
+            sites will work well for all users.</p>
+            <p>The Web Shared Services department currently most of HCA's 14 divisions, and our accessibility project
+              is in charge of working on all of the division, facility, and specialty sites. By the end of this project
+              we'll have improved accessibility on several hundred sites.</p>
+            <p>We have a team of five "digital content specialists", two project managers, and an accessibility QA specialist.</p>
+          </div>
+          <h2>What We Work On</h2>
+          <div class="text">
+            <p>There are a lot of things we review and update for each site:
+              <ul>
+                <li>videos on HCA Healthcare Youtube channels need to have captions (not the auto-generated ones)
+                  or a transcript for videos without a person speaking</li>
+                <li>all PDF documents need to have appropriate tags and reading order for screenreader users</li>
+                <li>short, text-based PDFs get turned into HTML pages (because HTML is easier to make screenreader friendly)</li>
+                <li>links are changed to make sure they're clear ("read more" gets updated to "our oncology team", for example),
+                  since screenreader users can navigate a page by links</li>
+                <li>each site's branding is reviewed for color contrast</li>
+                <li>any old Flash content is marked for removal</li>
+                <li>HTML gets updated to remove things like iframes</li>
+              </ul>
+            </p>
+          </div>
+
+          <h2>Tools We Use</h2>
+          <div class="text">
+            <p>HCA uses a CMS platform called <a href="https://dotcms.com/" target="_blank">dotCMS</a> to house the sites.
+              It's got some similarities to other CMS platforms
+            like WordPress, but it's designed for enterprises with a lot of sites.</p>
+            <p>We use <a href="https://siteimprove.com/" target="_blank">Siteimprove</a> to run audits on the websites so
+            we don't have to manually check each of the hundreds of thousands of pages individually. </p>
+            <p><a href="https://brailleworks.com/">Brailleworks</a> updates PDF documents for screenreader accessibility.</p>
+            <p><a href="https://www.rev.com/">Rev.com</a> creates captions and transcripts for Youtube videos.</p>
+            <p><a href="https://www.nvaccess.org/">NVDA</a> a screen reader that we use for testing sites</p>
+            <p><a href="https://www.deque.com/axe/monitor/">axe Monitor</a> is an auditing tool that looks for accessibility
+              issues on lots of sites and pages at the same time</p>
+
+          </div>
+
+          <h2>Other Work</h2>
+          <div class="text">
+            <p>The accessibility project has sprints for each division, which means some of the time we're waiting on
+              the facilities or the vendors and we're less busy. During those times I've worked on:
+              <ul>
+                <li>Find Care, a large scale project to replace outdated "service" pages on each site with more cohesive
+                  "specialties" pages</li>
+                <li>Training new members of the accessibility team</li>
+                <li>Helping the ticketing team when their queue gets too long</li>
+                <li>Reading articles, watching webinars, and taking online courses to learn more about accessibility
+                  so I can contribute more to our project</li>
+              </ul>
+
+            </p>
+          </div>
+
+
+
+          <h2>What I've Learned</h2>
+            <div class="text">
+              <p>Before I started this role I had some basic knowledge about color contrast, only having one H1 per page,
+                and that people use screenreaders. I've been able to get much more in-depth about
+                how easy it can be to create websites that work for all users.</p>
+              <p></p>
+              <p>I've also gotten to experience using a screenreader myself (I have to listen to it at non-superhuman speeds
+                though!) - <a href="https://www.nvaccess.org/">NVDA</a> is a free screenreader created by blind developers,
+                so it's a great one to try out.</p>
+              <p>There's always more to learn, so even after my contract ends I'll still be reading articles to keep up
+                with the best way to design sites. The things I've learned here will help me create better digital products
+                in the future.</p>
+            </div>
+
+          <div class="text">
+              <h3>Thanks for reading!</h3>
+              <p>Now you can check out <a href="../work.html">more of my work</a> </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer role="contentinfo">
+      <div class="footer">
+        <span>&copy; Kae Anderson 2020</span>
+        <span class="footeritem"> (made with &hearts; in Tennessee) </span>
+        <span class="footeritem"><a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" aria-label="email Kae"
+          target="_top" class="links fa-size"><i aria-hidden="true" class="far fa-envelope"></i></a></span>
+          <!--<span class="footeritem"><a href="https://drive.google.com/file/d/1lC8rtmBCSjLScNnocxxggGzpU2scOl6M/view?usp=sharing"
+            aria-label="PDF version of resume" class="links
+            fa-size" target="_blank"><i aria-hidden="true" class="fas fa-file-alt" aria-label="resume" alt="Kae's resume"></i></a></span>-->
+        <span class="footeritem"><a href="http://www.linkedin.com/in/kaeanderson" aria-label="Kae's LinkedIn profile" class="links fa-size" target="_blank">
+          <i aria-hidden="true" class="fab fa-linkedin" aria-label="LinkedIn" alt="Kae's LinkedIn page"></i></a></span>
+        <span class="footeritem"><a href="http://instagram.com/okayheykae" aria-label="Kae's Instagram" class="links fa-size" target="_blank">
+          <i aria-hidden="true" class="fab fa-instagram" aria-label="Instagram" alt="Kae's Instagram"></i></a></span>
+      </div>
+    </footer>
+
+
+
+
+
+  </body>
+</html>

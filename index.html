@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>| Kae Anderson |</title>
+    <title>| Kae Anderson's Portfolio Site |</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px|Raleway|Montserrat|Varela+Round" rel="stylesheet">
-    <link rel="icon" type="image/png" href="http://i.imgur.com/EK1wzf4.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Montserrat" rel="stylesheet">
+      <link rel="icon" type="image/png" href="https://i.imgur.com/EK1wzf4.jpg">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body class="mainbackground">
 
-    <nav class="navbar">
+    <nav class="navbar" role="navigation">
       <div class="navleft navitem">
         <a href="index.html" class="link">Kae Anderson</a>
       </div>
@@ -19,7 +19,7 @@
           <div class="navright">
           <a href="index.html" class="navitem current">Home</a>
           <a href="work.html" class="navitem notcurrent">Work</a>
-          <a href="https://drive.google.com/file/d/1ZwZkNsiDemH-AlkVfiSjw0WVvjoDapnb/view?usp=sharing" target="_blank" class="navitem notcurrent">Résumé</a>
+          <a href="about.html" class="navitem notcurrent">About</a>
           <a href="contact.html" class="navitem notcurrent">Contact</a>
           </div>
         </div>
@@ -29,18 +29,19 @@
     <header>
       <div class="headerwords">
         <h1>Hi, I'm Kae.</h1>
-        <h3 class="mainindent">I'm a UX designer in Nashville. I have a degree in anthropology (because I like doing
-          human-centered research) and a front-end development certification (so I know how to talk to devs). </h3>
+        <h2 class="mainindent">I care about how people interact with technology. Currently I'm making websites more
+          accessible at HCA Healthcare.</h2>
+        <p>(My name is pronounced like the letter "k" or the word "que" in Spanish.)</p>
+
           <br><br>
-          <a href="#jump" class="link"><p class="bigger">v</p></a>
       </div>
     </header>
 
-    <div class="section white">
+    <div class="section white" role="main">
       <div class="container">
 
       <div class="add">
-        <div class="addbox">
+        <!-- <div class="addbox">
           <div class="additem">anthropology degree</div>
         </div>
         <div class="addbox">
@@ -54,111 +55,79 @@
         </div>
         <div class="addbox">
           <div class="additem"> a love of UX design</div>
-        </div>
+        </div> -->
       </div>
-      <div id="jump">.</div>
+
+        <div class="h2indent">
+          <h2>What I've Worked On</h2>
+        </div>
 
         <div class="canwork">
 
+
           <div class="worksection">
-            <a href="./work/reika.html" target="_blank"><img src="./images/screenshotreika2.png"alt="screenshot showing part of the Reika app design process"></a>
+            <a href="./work/hca.html"><img src="./images/HCAHealthcare.png" alt="HCA Healthcare summary"></a>
             <div class="worksecwords">
-              <h2>Reika</h2>
+              <h3><strong>HCA Healthcare</strong></h3>
+              <p>Accessibility Upgrade | 2018 - present</p>
+              <h3>HCA Healthcare owns hundreds of healthcare facilities and specialty groups, which means they have
+                hundreds of websites. I'm helping them update their sites to make them accessible for all users.</h3>
+              <p>accessibility | inclusive design | HTML and Bootstrap</p>
+              <p><span>read the</span>  <a href="./work/hcasummary.html" class="links">HCA Healthcare summary</a> <span>or</span>
+                <a href="./work/HCA.html" class="links">more information about my role at HCA</a></span></p>
+            </div>
+          </div>
+
+          <div class="worksection">
+            <a href="./work/reikasummary.html"><img src="./images/screenshotreika2.png" alt="Reika app summary"></a>
+            <div class="worksecwords">
+              <h3><strong>Reika</strong></h3>
               <p>Concept App | 2018</p>
               <h3>I designed an app to help people organize their travel plans more effectively as my
                 capstone project for a UX bootcamp.</h3>
               <p>research | prototyping | mid-fi UI design</p>
-              <p><span>read the</span>  <a href="./work/reikasummary.html" class="links">Summary</a> <span>or</span>
-                <a href="./work/reika.html" class="links">Full Case Study</a></span></p>
+              <p><span>read the</span>  <a href="./work/reikasummary.html" class="links">Reika app summary</a> <span>or</span>
+                <a href="./work/reika.html" class="links">Reika app full case study</a></span></p>
             </div>
           </div>
 
           <div class="worksection">
-            <a href="./work/kaizening.html" target="_blank"><img src="./images/Kaizeningfinal.png" alt="screenshot showing the finished email signup form" class="canwork3"></a>
+            <a href="./work/servicejamsummary.html"><img src="./images/screenshotgsjam.png" alt="design jam summary" class="canwork3"></a>
             <div class="worksecwords">
-              <h2>Kaizening</h2>
-              <p>CTA Redesign | 2017</p>
-              <h3>I improved email subscriber counts by 30% when I redesigned the CTAs for my internship's WordPress site.</h3>
-              <p>research | prototyping | deployment</p>
-              <p><span>read the</span> <a href="./work/kaizeningsummary.html" class="links">Summary</a> <span>or</span>
-              <a href="./work/kaizening.html" class="links">Full Case Study</a></span></p>
-            </div>
-          </div>
-
-          <div class="worksection">
-            <a href="./work/servicejam.html" target="_blank"><img src="./images/screenshotgsjam.png" alt="screenshot showing part of a paper prototype of an app" class="canwork3"></a>
-            <div class="worksecwords">
-              <h2>Global Service Design Jam</h2>
+              <h3><strong>Global Service Design Jam</strong></h3>
               <p>Service Project | 2018</p>
               <h3>I joined the Nashville team for a design jam and worked on researching and prototyping a product that helps people.</h3>
               <p>research | design | prototyping </p>
-              <p><span>read the</span> <a href="./work/servicejamsummary.html"
-              class="links">Summary</a> <span>or</span>
-              <a href="./work/servicejam.html" class="links">Full Case Study</a></span></p>
+              <p><span>read the</span> <a href="./work/servicejamsummary.html" class="links">2018 design jam summary</a> <span>or</span>
+              <a href="./work/servicejam.html" class="links">2018 design jam full case study</a></span></p>
             </div>
           </div>
 
           <div class="worksection">
-            <a href="./work/spacex.html" target="_blank"><img src="./images/space.png" alt="screenshot showing part of the write up for the SpaceX concept site" class="canwork3"></a>
+            <a href="./work/spacexsummary.html"><img src="./images/space.png" alt="SpaceX concept site summary" class="canwork3"></a>
             <div class="worksecwords">
-              <h2>SpaceX Flight Booking Project</h2>
+              <h3><strong>SpaceX Flight Booking Project</strong></h3>
               <p>Concept Site | 2018</p>
-              <h3>This is a concept for SpaceX's flight booking site. It's still in progress!</h3>
+              <h3>This is a concept for SpaceX's flight booking site. I researched and did mid-fi designs for the screens
+                users would see as they booked their flights.</h3>
               <p>research | design | prototyping </p>
               <p><span>read the</span> <a href="./work/spacexsummary.html"
-              class="links">Summary</a> <span>or</span>
-              <a href="./work/spacex.html" class="links">Full Case Study</a></span></p>
+              class="links">SpaceX concept summary</a> <span>or</span>
+              <a href="./work/spacex.html" class="links">SpaceX concept full case study</a></span></p>
             </div>
           </div>
 
-
-
-
-          <!-- <div class="canworksec">
-              <a href="./work/reika.html" target="_blank"><img src="./images/screenshotreika2.png"alt="screenshot showing part of the Reika app design process"></a>
-            <p class="workwords">
-              <h2><a href="./work/reika.html" class="link" target="_blank">Reika Travel Planning App</a></h2>
-              <span class="tinypadding">This is my capstone project for a UX course. It's the concept for an app that helps people
-                organize their trip information, and I did the research and design myself.
-                <span>Read the</span>  <a href="./work/reikasummary.html" class="links">Summary</a> <span>or</span>
-                <a href="./work/reika.html" class="links">Full Case Study</a></span>
-            </p>
-          </div> -->
-
-          <!-- <div class="canworksec">
-            <a href="./work/kaizening.html" target="_blank"><img src="./images/Kaizeningfinal.png" alt="screenshot showing the finished email signup form" class="canwork3"></a>
-            <p class="workwords">
-              <h2><a href="./work/reika.html" target="_blank" class="link">Kaizening Email Form</a></h2>
-              <span class="tinypadding">I updated the design of the email signup forms for my internship's site which
-                successfully improved the subscriber count.
-                <span>Read the</span> <a href="./work/kaizeningsummary.html" class="links">Summary</a> <span>or</span>
-                <a href="./work/kaizening.html" class="links">Full Case Study</a></span>
-            </p>
-          </div> -->
-
-          <!-- <div class="canworksec">
-            <a href="./work/servicejam.html" target="_blank"><img src="./images/screenshotgsjam.png" alt="screenshot showing part of a paper prototype of an app" class="canwork3"></a>
-            <p class="workwords">
-              <h2><a href="./work/servicejam.html" target="_blank" class="link">Global Service Design Jam</a></h2>
-              <span class="tinypadding">I was on the Nashville team for the Global Service Design Jam this year. We spent
-                two days researching and prototyping, and came up with a product called Support Link, which connects
-                people to help when they need it. <span>Read the</span> <a href="./work/servicejamsummary.html"
-                class="links">Summary</a> <span>or</span>
-                <a href="./work/servicejam.html" class="links">Full Case Study</a></span>
-            </p>
-          </div> -->
-
-          <!-- <div class="canworksec">
-            <a href="./work/spacex.html" target="_blank"><img src="./images/space.png" alt="screenshot showing part of the write up for the SpaceX concept site" class="canwork3"></a>
-            <p class="workwords">
-              <h2><a href="./work/spacex.html" target="_blank" class="link">SpaceX Flight Concept Site</a></h2>
-              <span class="tinypadding">This is a concept for SpaceX's flight booking site. It's still in progress, so
-                there isn't a finished product yet! <span>Read the</span> <a href="./work/spacexsummary.html"
-                class="links">Summary</a> <span>or</span>
-                <a href="./work/spacex.html" class="links">Full Case Study</a></span>
-            </p>
-          </div> -->
-
+          <div class="worksection">
+            <a href="./work/kaizeningsummary.html"><img src="./images/Kaizeningfinal.png" alt="Kaizening email summary" class="canwork3"></a>
+            <div class="worksecwords">
+              <h3><strong>Kaizening</strong></h3>
+              <p>CTA Redesign | 2017</p>
+              <h3>I improved email subscriber counts by 30% when I redesigned the CTAs for my internship's WordPress site.</h3>
+              <p>research | prototyping | deployment</p>
+              <p><span>read the</span> <a href="./work/kaizeningsummary.html" class="links">Kaizening email summary</a> <span>or</span>
+              <a href="./work/kaizening.html" class="links">Kaizening email full case study</a></span></p>
+            </div>
+          </div>
 
             <br><br>
 
@@ -171,13 +140,14 @@
 
     <div class="spacing">
       <div class="canwrite">
-        <h2>I've always been curious about people. I got a degree in anthropology because learning about humans comes
-          naturally for me.</h2>
+        <h2>How I Got Here</h2>
+        <h3>I've always been curious about people. I got a degree in anthropology because learning about humans comes
+          naturally for me.</h3>
         <p>I had a job working on a helpdesk where I got calls and emails from people who weren't able to understand
-          how to use a site and database. I spent hundreds of hours training them, and knew there had to be a way to make sites
+          how to use a third-party database site. I spent hundreds of hours training them, and knew there had to be a way to make sites
           that were intuitive and easy to use. I left my job and went to a bootcamp for front-end development, but
           while I was there I realized it's not a developer's job to care about the user!</p>
-        <h3>Cue my love for UX! It takes my interest in people and mixes in technology and creativity - it's the perfect
+        <h3>Cue my love for inclusive design! It takes my interest in people and mixes in technology and creativity - it's the perfect
           fit!</h3>
         <p>I've worked at a range of companies: one with two employees and one with over one hundred thousand, brand new
           startups and companies that have been around since before I was born, in fields from healthcare to publishing.
@@ -185,31 +155,32 @@
       </div>
     </div>
 
-      <div class="cando">
-        <h2>Here are a few things I know how to use:</h2>
-          <ul>
-            <li>Sketch</li>
-            <li>Balsamiq</li>
-            <li>Photoshop</li>
-          </ul>
+    <div class="cando">
+      <h2>Some Skills I Have</h2>
+      <h3>Here are a few things I know how to use:</h3>
+        <ul>
+          <li>automated testing tools like Axe, Wave, Worldspace Comply, and Siteimprove</li>
+          <li>assistive technology like NVDA</li>
+          <li>design tools like Sketch, Balsamiq, and Invision</li>
+        </ul>
 
-          <h2>Here are a few things I can do:</h2>
-          <ul>
-            <li>user research</li>
-            <li>prototypes</li>
-            <li>HTML &amp; CSS</li>
-          </ul>
+        <h3>Here are a few things I can do:</h3>
+        <ul>
+          <li>user research</li>
+          <li>prototypes</li>
+          <li>HTML &amp; CSS</li>
+        </ul>
 
-          <h2>And here are a few things that make me a good coworker:</h2>
-          <ul>
-            <li>I'm reliable</li>
-            <li>I'm organized (I make spreadsheets for fun!)</li>
-            <li>I'm empathetic</li>
-          </ul>
-          <br>
-          <h3 class="center">You can see <a href="skills.html" class="links">more skills</a> here and find out <a href="education.html" class="links">
-            where I learned them</a> here</h3>
-      </div>
+        <h3>And here are a few things that make me a good coworker:</h3>
+        <ul>
+          <li>I'm reliable</li>
+          <li>I'm organized (I make spreadsheets for fun!)</li>
+          <li>I'm empathetic</li>
+        </ul>
+        <br>
+        <h3 class="center">You can see <a href="skills.html" class="links">more skills</a> here and find out <a href="education.html" class="links">
+          where I learned them</a> here</h3>
+    </div>
 
           <br>
 
@@ -229,14 +200,14 @@
               And I'm great at keeping projects on track because I'm naturally organized. If you don't already have a
               system in place for organizing projects then I'll create one for you!</p>
             <h3>We should talk!</h3>
-            <p>I'm open to working at a company where user experience is a priority, or working in an organization that's
+            <p>I'm open to working at a company where inclusive design is a priority, or working in an organization that's
               newly focused on users and trying things out for the first time. I love learning, and I'm excited
               to work on new things with new people.</p>
             <h3>Ready to get in touch?</h3>
             <p>I'd love to hear from you! You can
               <a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" target="_top" class="links">
                 email me</a>, <a href="http://linkedin.com/in/kaeanderson" target="_blank" class="links">connect with me on LinkedIn</a>,
-              or <a href="https://drive.google.com/file/d/1ZwZkNsiDemH-AlkVfiSjw0WVvjoDapnb/view?usp=sharing"
+              or <a href="https://drive.google.com/file/d/1kdmRIu9HzdwbydMqDYIrFscCasxIzwBV/view?usp=sharing"
               target="_blank" class="links">get a copy of my résumé</a>.
           </div>
         </div> <!--spacing-->
@@ -247,20 +218,25 @@
     <div class="typeform-widget" data-url="https://kaeanderson.typeform.com/to/h0q8YH" style="width: 75%; height: 300px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>  </div>
 
 
-    <footer>
+    <footer role="contentinfo">
       <div class="footer">
-        <span>&copy; Kae Anderson 2018</span>
+        <span>&copy; Kae Anderson 2020</span>
         <span class="footeritem"> (made with &hearts; in Tennessee) </span>
-        <span class="footeritem"><a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio"
-          target="_top" class="links fa-size"><i class="far fa-envelope"></i></a></span>
-        <span class="footeritem"><a href="https://drive.google.com/file/d/1ZwZkNsiDemH-AlkVfiSjw0WVvjoDapnb/view?usp=sharing" class="links fa-size" target="_blank">
-          <i class="fas fa-file-alt"></i></a></span>
-        <span class="footeritem"><a href="http://www.linkedin.com/in/kaeanderson" class="links fa-size" target="_blank">
-          <i class="fab fa-linkedin"></i></a></span>
-        <span class="footeritem"><a href="http://instagram.com/okayheykae" class="links fa-size" target="_blank">
-          <i class="fab fa-instagram"></i></a></span>
+        <span class="footeritem"><a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" aria-label="email Kae"
+          target="_top" class="links fa-size"><i aria-hidden="true" class="far fa-envelope"></i></a></span>
+          <!--<span class="footeritem"><a href="https://drive.google.com/file/d/1lC8rtmBCSjLScNnocxxggGzpU2scOl6M/view?usp=sharing"
+            aria-label="PDF version of resume" class="links
+            fa-size" target="_blank"><i aria-hidden="true" class="fas fa-file-alt" aria-label="resume" alt="Kae's resume"></i></a></span>-->
+        <span class="footeritem"><a href="http://www.linkedin.com/in/kaeanderson" aria-label="Kae's LinkedIn profile" class="links fa-size" target="_blank">
+          <i aria-hidden="true" class="fab fa-linkedin" aria-label="LinkedIn" alt="Kae's LinkedIn page"></i></a></span>
+        <span class="footeritem"><a href="http://instagram.com/okayheykae" aria-label="Kae's Instagram" class="links fa-size" target="_blank">
+          <i aria-hidden="true" class="fab fa-instagram" aria-label="Instagram" alt="Kae's Instagram"></i></a></span>
       </div>
     </footer>
 
   </body>
 </html>
+
+
+
+<!-- file:///Users/kaeanderson/projects/learning/newportfolio/skills.html -->

@@ -1,15 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>| A SpaceX Flight Booking Site Concept |</title>
     <link rel="stylesheet" href="spacex.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="icon" type="image/png" href="http://i.imgur.com/EK1wzf4.jpg">
+  <link rel="icon" type="image/png" href="https://i.imgur.com/EK1wzf4.jpg">
   </head>
   <body>
 
-    <div class="main">
+    <nav class="navbar" role="navigation">
+      <div class="navleft navitem">
+        <a href="../index.html" class="link">Kae Anderson</a>
+      </div>
+      <div class="navitems">
+        <div class="navitembox">
+          <div class="navright">
+          <a href="../index.html" class="navitem notcurrent">Home</a>
+          <a href="../work.html" class="navitem notcurrent">Work</a>
+          <a href="../about.html" class="navitem notcurrent">About</a>
+          <a href="../contact.html" class="navitem notcurrent">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main" role="main">
       <div class="container">
 
 
@@ -298,13 +314,32 @@
         <div class="section" id="midfi">
           <div class="text">
             <h2>Mid-Fi Wireframes</h2>
-            <p>I'm currently working on making the second round of designs in Sketch, which should be up on here soon!</p>
+            <p>I created mid-fi wireframes in Sketch using the feedback I got from the prototypes. I added the flight
+              info sidebar to the pages where flights had been chosen (just not the home page), changed the way prices
+              are listed, and updated the bar at the top of each page so it shows a person's progress through the steps.</p>
+            <p>I went with SpaceX brand colors (#232527 for the background) and used sans-serif fonts to keep everything
+              clean. The goal is to make this site seem a little futuristic without being overwhelming.</p>
           </div>
+          <div class="photos">
+            <a href="../images/spacemidfisearch.png" target="_blank"><img src="../images/spacemidfisearch.png" alt="a view of the updated home page"></a>
+            <a href="../images/spacemidfiresults.png" target="_blank"><img src="../images/spacemidfiresults.png" alt="a view of the updated results page"></a>
+            <a href="../images/spacemidfiflight.png" target="_blank"><img src="../images/spacemidfiflight.png" alt="a view of the updated flight info page"></a>
+            <a href="../images/spacemidfiflier.png" target="_blank"><img src="../images/spacemidfiflier.png" alt="a view of the updated fliers info page"></a>
+            <a href="../images/spacemidfipayment.png" target="_blank"><img src="../images/spacemidfipayment.png" alt="a view of the updated payment page"></a>
+            <a href="../images/spacemidficonfirm.png" target="_blank"><img src="../images/spacemidficonfirm.png" alt="a view of the updated confirmation page"></a>
+          </div>
+        </div>
+
+        <div class="section text" id="learn">
+          <h2>What I Learned</h2>
+          <p>This project was different than some of the things I've previously done because there were a lot of guidelines
+            in place already. I had a lot of other flight booking sites to reference, and SpaceX already has brand colors/styles,
+            so I learned how to do research that was more focused on improving things than creating them from scratch.</p>
         </div>
 
 
         <div class="section text">
-          <h3>That's all so far! From here you can <a href="http://kaeanderson.com">go back to my site</a>
+          <h3>Thanks for reading! You can <a href="http://kaeanderson.com">go back to my site</a>
             to see more or <a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" target="_top" class="links">
               send me an email</a> to say hello!</h3>
         </div>
@@ -312,6 +347,24 @@
 
       </div> <!--end of container-->
     </div> <!--end of main-->
+
+    <footer role="contentinfo">
+      <div class="footer">
+        <span>&copy; Kae Anderson 2020</span>
+        <span class="footeritem"> (made with &hearts; in Tennessee) </span>
+        <span class="footeritem"><a href="mailto:andersonkaem@gmail.com?Subject=Hello%20From%20Your%20Portfolio" aria-label="email Kae"
+          target="_top" class="links fa-size"><i aria-hidden="true" class="far fa-envelope"></i></a></span>
+          <!--<span class="footeritem"><a href="https://drive.google.com/file/d/1lC8rtmBCSjLScNnocxxggGzpU2scOl6M/view?usp=sharing"
+            aria-label="PDF version of resume" class="links
+            fa-size" target="_blank"><i aria-hidden="true" class="fas fa-file-alt" aria-label="resume" alt="Kae's resume"></i></a></span>-->
+        <span class="footeritem"><a href="http://www.linkedin.com/in/kaeanderson" aria-label="Kae's LinkedIn profile" class="links fa-size" target="_blank">
+          <i aria-hidden="true" class="fab fa-linkedin" aria-label="LinkedIn" alt="Kae's LinkedIn page"></i></a></span>
+        <span class="footeritem"><a href="http://instagram.com/okayheykae" aria-label="Kae's Instagram" class="links fa-size" target="_blank">
+          <i aria-hidden="true" class="fab fa-instagram" aria-label="Instagram" alt="Kae's Instagram"></i></a></span>
+      </div>
+    </footer>
+
+
 
   </body>
 </html>

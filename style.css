@@ -68,7 +68,7 @@ h1 {
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
-  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
 }
 
 
@@ -154,9 +154,15 @@ margin: 2rem -1rem;
 .canwrite {
   background: #75D6DD;
   margin: 0 auto;
-  text-align: center;
+  /*text-align: center;*/
   padding: 4rem;
   max-width: 50rem;
+}
+
+.h2indent {
+  padding-left: 16rem;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
 }
 
 .spacing {
@@ -171,7 +177,7 @@ margin: 2rem -1rem;
 .canbe {
   background: #90E3D0;
   margin: 0 auto;
-  text-align: center;
+  /*text-align: center;*/
   padding: 4rem;
   max-width: 30rem;
 }

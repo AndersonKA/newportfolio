@@ -1,0 +1,102 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 175%;
+}
+
+a {
+  color: #000000;
+}
+
+img {
+  max-width: 30rem;
+}
+
+/*CSS for the Header*/
+header {
+  margin: -2rem;
+  background: #003B6F;
+  color: #ffffff;
+}
+
+header h1 {
+  text-align: center;
+  padding: 10rem;
+}
+
+/*CSS for the Nav Bar*/
+.navbar {
+  margin: -1rem -1rem 2rem;
+  display: flex;
+  font-size: 1.1rem;
+  /*font-family: 'Slabo 27px', serif;*/
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #00C6D4;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
+  z-index: 1;
+}
+
+.navbar a {
+  color: #000000;
+}
+
+.navitems {
+  margin: 1rem;
+}
+
+.navitembox {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.navitem {
+  padding: 0 0.5rem;
+}
+
+.navleft {
+  margin: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.notcurrent {
+  text-decoration: none;
+}
+
+.current {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-top: 1px solid #000000;
+}
+
+
+/*CSS for the Main Section*/
+
+.section {
+  margin: 0 -1rem;
+  padding: 6rem;
+}
+
+.text {
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.photos {
+  text-align: center;
+}
+
+.bigimage {
+  max-width: 65rem;
+}
+
+.indent {
+  padding-left: 2.5rem;
+}
+
+.link {
+  text-decoration: none;
+}
